@@ -1,0 +1,81 @@
+[{"stream_name":"stderr","time":6.080784976,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":6.080825816,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":6.080828016,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":6.080829086,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":6.493142123,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":6.493160243,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":6.493161903,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":6.4931629730000004,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":60.556633408,"data":"/kaggle/usr/lib/notebooks/ryanholbrook/nvidia_utility_script/torch/compiler/__init__.py:148: FutureWarning: torch._dynamo.allow_in_graph is deprecated and will be removed in a future version. Use torch._dynamo.nonstrict_trace instead.\n"}
+,{"stream_name":"stderr","time":60.556647618,"data":"  return torch._dynamo.allow_in_graph(fn)\n"}
+,{"stream_name":"stderr","time":60.556649558,"data":"\n"}
+,{"stream_name":"stderr","time":60.556650798,"data":"/kaggle/usr/lib/notebooks/ryanholbrook/nvidia_utility_script/torch/compiler/__init__.py:148: FutureWarning: torch._dynamo.allow_in_graph is deprecated and will be removed in a future version. Use torch._dynamo.nonstrict_trace instead.\n"}
+,{"stream_name":"stderr","time":60.556652228,"data":"  return torch._dynamo.allow_in_graph(fn)\n"}
+,{"stream_name":"stdout","time":61.404978206,"data":"CUDA: True\n"}
+,{"stream_name":"stdout","time":61.405001406,"data":"GPU: NVIDIA RTX PRO 6000 Blackwell Server Edition\n"}
+,{"stream_name":"stdout","time":61.405003416,"data":"VRAM: 102.0 GB\n"}
+,{"stream_name":"stderr","time":65.237777211,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":65.237793491,"data":"  File \"\u003cstring\u003e\", line 1, in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":65.237796501,"data":"  File \"/usr/local/lib/python3.12/dist-packages/papermill/execute.py\", line 131, in execute_notebook\n"}
+,{"stream_name":"stderr","time":65.237850121,"data":"    raise_for_execution_errors(nb, output_path)\n"}
+,{"stream_name":"stderr","time":65.237862711,"data":"  File \"/usr/local/lib/python3.12/dist-packages/papermill/execute.py\", line 251, in raise_for_execution_errors\n"}
+,{"stream_name":"stderr","time":65.237900521,"data":"    raise error\n"}
+,{"stream_name":"stderr","time":65.238084451,"data":"papermill.exceptions.PapermillExecutionError: \n"}
+,{"stream_name":"stderr","time":65.238088351,"data":"---------------------------------------------------------------------------\n"}
+,{"stream_name":"stderr","time":65.238089871,"data":"Exception encountered at \"In [3]\":\n"}
+,{"stream_name":"stderr","time":65.238091271,"data":"---------------------------------------------------------------------------\n"}
+,{"stream_name":"stderr","time":65.238092641,"data":"FileNotFoundError                         Traceback (most recent call last)\n"}
+,{"stream_name":"stderr","time":65.238093901,"data":"/tmp/ipykernel_65/3266778114.py in \u003ccell line: 0\u003e()\n"}
+,{"stream_name":"stderr","time":65.238106851,"data":"----\u003e 1 train_df = pl.read_csv(f'{DATA_DIR}/train.csv')\n"}
+,{"stream_name":"stderr","time":65.238109191,"data":"      2 print(f'Train: {len(train_df)} rows')\n"}
+,{"stream_name":"stderr","time":65.238116901,"data":"\n"}
+,{"stream_name":"stderr","time":65.238118091,"data":"/usr/local/lib/python3.12/dist-packages/polars/_utils/deprecation.py in wrapper(*args, **kwargs)\n"}
+,{"stream_name":"stderr","time":65.238119151,"data":"    126                 old_name, new_name, kwargs, function.__qualname__, version\n"}
+,{"stream_name":"stderr","time":65.238120121,"data":"    127             )\n"}
+,{"stream_name":"stderr","time":65.238121101,"data":"--\u003e 128             return function(*args, **kwargs)\n"}
+,{"stream_name":"stderr","time":65.238122051,"data":"    129 \n"}
+,{"stream_name":"stderr","time":65.238122941,"data":"    130         wrapper.__signature__ = inspect.signature(function)  # type: ignore[attr-defined]\n"}
+,{"stream_name":"stderr","time":65.238123891,"data":"\n"}
+,{"stream_name":"stderr","time":65.238124741,"data":"/usr/local/lib/python3.12/dist-packages/polars/_utils/deprecation.py in wrapper(*args, **kwargs)\n"}
+,{"stream_name":"stderr","time":65.238125691,"data":"    126                 old_name, new_name, kwargs, function.__qualname__, version\n"}
+,{"stream_name":"stderr","time":65.238126601,"data":"    127             )\n"}
+,{"stream_name":"stderr","time":65.238127481,"data":"--\u003e 128             return function(*args, **kwargs)\n"}
+,{"stream_name":"stderr","time":65.238128391,"data":"    129 \n"}
+,{"stream_name":"stderr","time":65.238129241,"data":"    130         wrapper.__signature__ = inspect.signature(function)  # type: ignore[attr-defined]\n"}
+,{"stream_name":"stderr","time":65.238130171,"data":"\n"}
+,{"stream_name":"stderr","time":65.238130961,"data":"/usr/local/lib/python3.12/dist-packages/polars/_utils/deprecation.py in wrapper(*args, **kwargs)\n"}
+,{"stream_name":"stderr","time":65.238131921,"data":"    126                 old_name, new_name, kwargs, function.__qualname__, version\n"}
+,{"stream_name":"stderr","time":65.238132861,"data":"    127             )\n"}
+,{"stream_name":"stderr","time":65.238133701,"data":"--\u003e 128             return function(*args, **kwargs)\n"}
+,{"stream_name":"stderr","time":65.238134581,"data":"    129 \n"}
+,{"stream_name":"stderr","time":65.238135401,"data":"    130         wrapper.__signature__ = inspect.signature(function)  # type: ignore[attr-defined]\n"}
+,{"stream_name":"stderr","time":65.238136341,"data":"\n"}
+,{"stream_name":"stderr","time":65.238137861,"data":"/usr/local/lib/python3.12/dist-packages/polars/io/csv/functions.py in read_csv(source, has_header, columns, new_columns, separator, comment_prefix, quote_char, skip_rows, skip_lines, schema, schema_overrides, null_values, missing_utf8_is_empty_string, ignore_errors, try_parse_dates, n_threads, infer_schema, infer_schema_length, batch_size, n_rows, encoding, low_memory, rechunk, use_pyarrow, storage_options, skip_rows_after_header, row_index_name, row_index_offset, sample_size, eol_char, raise_if_empty, truncate_ragged_lines, decimal_comma, glob)\n"}
+,{"stream_name":"stderr","time":65.238140961,"data":"    547             storage_options=storage_options,\n"}
+,{"stream_name":"stderr","time":65.238141971,"data":"    548         ) as data:\n"}
+,{"stream_name":"stderr","time":65.238142871,"data":"--\u003e 549             df = _read_csv_impl(\n"}
+,{"stream_name":"stderr","time":65.238143741,"data":"    550                 data,\n"}
+,{"stream_name":"stderr","time":65.238144611,"data":"    551                 has_header=has_header,\n"}
+,{"stream_name":"stderr","time":65.238145501,"data":"\n"}
+,{"stream_name":"stderr","time":65.238146371,"data":"/usr/local/lib/python3.12/dist-packages/polars/io/csv/functions.py in _read_csv_impl(source, has_header, columns, separator, comment_prefix, quote_char, skip_rows, skip_lines, schema, schema_overrides, null_values, missing_utf8_is_empty_string, ignore_errors, try_parse_dates, n_threads, infer_schema_length, batch_size, n_rows, encoding, low_memory, rechunk, skip_rows_after_header, row_index_name, row_index_offset, sample_size, eol_char, raise_if_empty, truncate_ragged_lines, decimal_comma, glob)\n"}
+,{"stream_name":"stderr","time":65.238149241,"data":"    695     projection, columns = parse_columns_arg(columns)\n"}
+,{"stream_name":"stderr","time":65.238150181,"data":"    696 \n"}
+,{"stream_name":"stderr","time":65.238151041,"data":"--\u003e 697     pydf = PyDataFrame.read_csv(\n"}
+,{"stream_name":"stderr","time":65.238151941,"data":"    698         source,\n"}
+,{"stream_name":"stderr","time":65.238152811,"data":"    699         infer_schema_length,\n"}
+,{"stream_name":"stderr","time":65.238153691,"data":"\n"}
+,{"stream_name":"stderr","time":65.238154521,"data":"FileNotFoundError: No such file or directory (os error 2): /kaggle/input/nvidia-nemotron-model-reasoning-challenge/train.csv\n"}
+,{"stream_name":"stderr","time":65.238155521,"data":"\n"}
+,{"stream_name":"stderr","time":66.444798842,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":66.444817202,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":66.564909372,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":66.564919662,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":67.11006109,"data":"/usr/local/lib/python3.12/dist-packages/traitlets/traitlets.py:2915: FutureWarning: --Exporter.preprocessors=[\"remove_papermill_header.RemovePapermillHeader\"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.\n"}
+,{"stream_name":"stderr","time":67.11007103,"data":"  warn(\n"}
+,{"stream_name":"stderr","time":67.136599853,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":67.273835861,"data":"[NbConvertApp] Writing 20965 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":68.744356746,"data":"/usr/local/lib/python3.12/dist-packages/traitlets/traitlets.py:2915: FutureWarning: --Exporter.preprocessors=[\"nbconvert.preprocessors.ExtractOutputPreprocessor\"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.\n"}
+,{"stream_name":"stderr","time":68.744368656,"data":"  warn(\n"}
+,{"stream_name":"stderr","time":68.765262082,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":69.21987668,"data":"[NbConvertApp] Writing 315211 bytes to __results__.html\n"}
+]

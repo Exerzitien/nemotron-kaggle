@@ -1,0 +1,191 @@
+[{"stream_name":"stderr","time":6.470670869,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":6.470696889,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":6.470698839,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":6.470700049,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":6.89647336,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":6.89649571,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":6.89649718,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":6.89649833,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":73.089631437,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":73.089647537,"data":"bigframes 2.31.0 requires google-cloud-bigquery-storage\u003c3.0.0,\u003e=2.30.0, which is not installed.\n"}
+,{"stream_name":"stderr","time":73.089649817,"data":"google-adk 1.21.0 requires google-cloud-bigquery-storage\u003e=2.0.0, which is not installed.\n"}
+,{"stream_name":"stderr","time":73.089651307,"data":"torchvision 0.26.0.dev20260324+cu128 requires torch==2.12.0.dev20260324, but you have torch 2.11.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":73.089652617,"data":"cuda-python 12.9.6 requires cuda-bindings~=12.9.6, but you have cuda-bindings 13.2.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":73.089653707,"data":"ydata-profiling 4.18.1 requires numpy\u003c2.4,\u003e=1.22, but you have numpy 2.4.4 which is incompatible.\n"}
+,{"stream_name":"stderr","time":73.089654957,"data":"ydata-profiling 4.18.1 requires pandas!=1.4.0,\u003c3.0,\u003e1.5, but you have pandas 3.0.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":73.089656127,"data":"ydata-profiling 4.18.1 requires scipy\u003c1.17,\u003e=1.8, but you have scipy 1.17.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":73.089657357,"data":"google-colab 1.0.0 requires jupyter-server==2.14.0, but you have jupyter-server 2.12.5 which is incompatible.\n"}
+,{"stream_name":"stderr","time":73.089658517,"data":"google-colab 1.0.0 requires pandas==2.2.2, but you have pandas 3.0.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":73.089659617,"data":"google-colab 1.0.0 requires requests==2.32.4, but you have requests 2.33.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":73.089660687,"data":"dopamine-rl 4.1.2 requires gym\u003c=0.25.2, but you have gym 0.26.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":73.089661807,"data":"db-dtypes 1.5.0 requires pandas\u003c3.0.0,\u003e=1.5.3, but you have pandas 3.0.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":73.089663057,"data":"bigframes 2.31.0 requires rich\u003c14,\u003e=12.4.4, but you have rich 14.3.3 which is incompatible.\n"}
+,{"stream_name":"stderr","time":73.089664307,"data":"opencv-contrib-python 4.12.0.88 requires numpy\u003c2.3.0,\u003e=2; python_version \u003e= \"3.9\", but you have numpy 2.4.4 which is incompatible.\n"}
+,{"stream_name":"stderr","time":73.089665747,"data":"opencv-python 4.12.0.88 requires numpy\u003c2.3.0,\u003e=2; python_version \u003e= \"3.9\", but you have numpy 2.4.4 which is incompatible.\n"}
+,{"stream_name":"stderr","time":73.089672147,"data":"bqplot 0.12.45 requires pandas\u003c3.0.0,\u003e=1.0.0, but you have pandas 3.0.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":73.089673217,"data":"opencv-python-headless 4.12.0.88 requires numpy\u003c2.3.0,\u003e=2; python_version \u003e= \"3.9\", but you have numpy 2.4.4 which is incompatible.\n"}
+,{"stream_name":"stderr","time":73.089674257,"data":"tensorflow 2.19.0 requires numpy\u003c2.2.0,\u003e=1.26.0, but you have numpy 2.4.4 which is incompatible.\n"}
+,{"stream_name":"stderr","time":73.089675747,"data":"numba 0.60.0 requires numpy\u003c2.1,\u003e=1.22, but you have numpy 2.4.4 which is incompatible.\n"}
+,{"stream_name":"stderr","time":73.089676657,"data":"langchain-core 1.2.7 requires packaging\u003c26.0.0,\u003e=23.2.0, but you have packaging 26.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":73.089677567,"data":"fastai 2.8.6 requires torch\u003c2.10,\u003e=1.10, but you have torch 2.11.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":73.089678427,"data":"gcsfs 2025.3.0 requires fsspec==2025.3.0, but you have fsspec 2026.2.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":73.089679237,"data":"gradio 5.50.0 requires pandas\u003c3.0,\u003e=1.0, but you have pandas 3.0.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":73.089680127,"data":"gradio 5.50.0 requires pillow\u003c12.0,\u003e=8.0, but you have pillow 12.1.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":73.138503446,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":73.138521376,"data":"bigframes 2.31.0 requires google-cloud-bigquery-storage\u003c3.0.0,\u003e=2.30.0, which is not installed.\n"}
+,{"stream_name":"stderr","time":73.138523016,"data":"google-adk 1.21.0 requires google-cloud-bigquery-storage\u003e=2.0.0, which is not installed.\n"}
+,{"stream_name":"stderr","time":73.138524076,"data":"torchvision 0.26.0.dev20260324+cu128 requires torch==2.12.0.dev20260324, but you have torch 2.11.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":73.138524936,"data":"cuda-python 12.9.6 requires cuda-bindings~=12.9.6, but you have cuda-bindings 13.2.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":73.138525756,"data":"ydata-profiling 4.18.1 requires numpy\u003c2.4,\u003e=1.22, but you have numpy 2.4.4 which is incompatible.\n"}
+,{"stream_name":"stderr","time":73.138526876,"data":"ydata-profiling 4.18.1 requires pandas!=1.4.0,\u003c3.0,\u003e1.5, but you have pandas 3.0.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":73.138527826,"data":"ydata-profiling 4.18.1 requires scipy\u003c1.17,\u003e=1.8, but you have scipy 1.17.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":73.138528676,"data":"google-colab 1.0.0 requires jupyter-server==2.14.0, but you have jupyter-server 2.12.5 which is incompatible.\n"}
+,{"stream_name":"stderr","time":73.138529526,"data":"google-colab 1.0.0 requires pandas==2.2.2, but you have pandas 3.0.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":73.138530326,"data":"google-colab 1.0.0 requires requests==2.32.4, but you have requests 2.33.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":73.138531116,"data":"dopamine-rl 4.1.2 requires gym\u003c=0.25.2, but you have gym 0.26.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":73.138531956,"data":"db-dtypes 1.5.0 requires pandas\u003c3.0.0,\u003e=1.5.3, but you have pandas 3.0.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":73.138532836,"data":"bigframes 2.31.0 requires rich\u003c14,\u003e=12.4.4, but you have rich 14.3.3 which is incompatible.\n"}
+,{"stream_name":"stderr","time":73.138540546,"data":"opencv-contrib-python 4.12.0.88 requires numpy\u003c2.3.0,\u003e=2; python_version \u003e= \"3.9\", but you have numpy 2.4.4 which is incompatible.\n"}
+,{"stream_name":"stderr","time":73.138541716,"data":"opencv-python 4.12.0.88 requires numpy\u003c2.3.0,\u003e=2; python_version \u003e= \"3.9\", but you have numpy 2.4.4 which is incompatible.\n"}
+,{"stream_name":"stderr","time":73.138542756,"data":"bqplot 0.12.45 requires pandas\u003c3.0.0,\u003e=1.0.0, but you have pandas 3.0.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":73.138543616,"data":"opencv-python-headless 4.12.0.88 requires numpy\u003c2.3.0,\u003e=2; python_version \u003e= \"3.9\", but you have numpy 2.4.4 which is incompatible.\n"}
+,{"stream_name":"stderr","time":73.138544536,"data":"tensorflow 2.19.0 requires numpy\u003c2.2.0,\u003e=1.26.0, but you have numpy 2.4.4 which is incompatible.\n"}
+,{"stream_name":"stderr","time":73.138546026,"data":"numba 0.60.0 requires numpy\u003c2.1,\u003e=1.22, but you have numpy 2.4.4 which is incompatible.\n"}
+,{"stream_name":"stderr","time":73.138546896,"data":"langchain-core 1.2.7 requires packaging\u003c26.0.0,\u003e=23.2.0, but you have packaging 26.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":73.138547786,"data":"fastai 2.8.6 requires torch\u003c2.10,\u003e=1.10, but you have torch 2.11.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":73.138548676,"data":"gcsfs 2025.3.0 requires fsspec==2025.3.0, but you have fsspec 2026.2.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":73.138549506,"data":"gradio 5.50.0 requires pandas\u003c3.0,\u003e=1.0, but you have pandas 3.0.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":73.138550336,"data":"gradio 5.50.0 requires pillow\u003c12.0,\u003e=8.0, but you have pillow 12.1.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":73.138551166,"data":"\n"}
+,{"stream_name":"stderr","time":73.138551976,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":73.138552896,"data":"bigframes 2.31.0 requires google-cloud-bigquery-storage\u003c3.0.0,\u003e=2.30.0, which is not installed.\n"}
+,{"stream_name":"stderr","time":73.138553756,"data":"google-adk 1.21.0 requires google-cloud-bigquery-storage\u003e=2.0.0, which is not installed.\n"}
+,{"stream_name":"stderr","time":73.138554606,"data":"torchvision 0.26.0.dev20260324+cu128 requires torch==2.12.0.dev20260324, but you have torch 2.11.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":73.138555466,"data":"cuda-python 12.9.6 requires cuda-bindings~=12.9.6, but you have cuda-bindings 13.2.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":73.138556276,"data":"ydata-profiling 4.18.1 requires numpy\u003c2.4,\u003e=1.22, but you have numpy 2.4.4 which is incompatible.\n"}
+,{"stream_name":"stderr","time":73.138557116,"data":"ydata-profiling 4.18.1 requires pandas!=1.4.0,\u003c3.0,\u003e1.5, but you have pandas 3.0.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":73.138557936,"data":"ydata-profiling 4.18.1 requires scipy\u003c1.17,\u003e=1.8, but you have scipy 1.17.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":73.138558816,"data":"google-colab 1.0.0 requires jupyter-server==2.14.0, but you have jupyter-server 2.12.5 which is incompatible.\n"}
+,{"stream_name":"stderr","time":73.138560766,"data":"google-colab 1.0.0 requires pandas==2.2.2, but you have pandas 3.0.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":73.138561586,"data":"google-colab 1.0.0 requires requests==2.32.4, but you have requests 2.33.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":73.138563296,"data":"dopamine-rl 4.1.2 requires gym\u003c=0.25.2, but you have gym 0.26.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":73.138564186,"data":"db-dtypes 1.5.0 requires pandas\u003c3.0.0,\u003e=1.5.3, but you have pandas 3.0.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":73.138565096,"data":"bigframes 2.31.0 requires rich\u003c14,\u003e=12.4.4, but you have rich 14.3.3 which is incompatible.\n"}
+,{"stream_name":"stderr","time":73.138566116,"data":"opencv-contrib-python 4.12.0.88 requires numpy\u003c2.3.0,\u003e=2; python_version \u003e= \"3.9\", but you have numpy 2.4.4 which is incompatible.\n"}
+,{"stream_name":"stderr","time":73.138567136,"data":"opencv-python 4.12.0.88 requires numpy\u003c2.3.0,\u003e=2; python_version \u003e= \"3.9\", but you have numpy 2.4.4 which is incompatible.\n"}
+,{"stream_name":"stderr","time":73.138568006,"data":"bqplot 0.12.45 requires pandas\u003c3.0.0,\u003e=1.0.0, but you have pandas 3.0.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":73.138568866,"data":"opencv-python-headless 4.12.0.88 requires numpy\u003c2.3.0,\u003e=2; python_version \u003e= \"3.9\", but you have numpy 2.4.4 which is incompatible.\n"}
+,{"stream_name":"stderr","time":73.138569736,"data":"tensorflow 2.19.0 requires numpy\u003c2.2.0,\u003e=1.26.0, but you have numpy 2.4.4 which is incompatible.\n"}
+,{"stream_name":"stderr","time":73.138570566,"data":"numba 0.60.0 requires numpy\u003c2.1,\u003e=1.22, but you have numpy 2.4.4 which is incompatible.\n"}
+,{"stream_name":"stderr","time":73.138571406,"data":"langchain-core 1.2.7 requires packaging\u003c26.0.0,\u003e=23.2.0, but you have packaging 26.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":73.138572256,"data":"fastai 2.8.6 requires torch\u003c2.10,\u003e=1.10, but you have torch 2.11.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":73.138573076,"data":"gcsfs 2025.3.0 requires fsspec==2025.3.0, but you have fsspec 2026.2.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":73.138573876,"data":"gradio 5.50.0 requires pandas\u003c3.0,\u003e=1.0, but you have pandas 3.0.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":73.138574696,"data":"gradio 5.50.0 requires pillow\u003c12.0,\u003e=8.0, but you have pillow 12.1.1 which is incompatible.\n"}
+,{"stream_name":"stdout","time":73.138049666,"data":"Packages installed.\n"}
+,{"stream_name":"stderr","time":148.893619254,"data":"/kaggle/usr/lib/notebooks/ryanholbrook/nvidia_utility_script/torch/compiler/__init__.py:148: FutureWarning: torch._dynamo.allow_in_graph is deprecated and will be removed in a future version. Use torch._dynamo.nonstrict_trace instead.\n"}
+,{"stream_name":"stderr","time":148.893637364,"data":"  return torch._dynamo.allow_in_graph(fn)\n"}
+,{"stream_name":"stderr","time":148.893639514,"data":"\n"}
+,{"stream_name":"stderr","time":148.893640894,"data":"/kaggle/usr/lib/notebooks/ryanholbrook/nvidia_utility_script/torch/compiler/__init__.py:148: FutureWarning: torch._dynamo.allow_in_graph is deprecated and will be removed in a future version. Use torch._dynamo.nonstrict_trace instead.\n"}
+,{"stream_name":"stderr","time":148.893642404,"data":"  return torch._dynamo.allow_in_graph(fn)\n"}
+,{"stream_name":"stdout","time":163.266740921,"data":"CUDA: False\n"}
+,{"stream_name":"stdout","time":163.279945791,"data":"Triton patches applied.\n"}
+,{"stream_name":"stdout","time":163.406204758,"data":"Found: ['/kaggle/input/competitions/nvidia-nemotron-model-reasoning-challenge/train.csv']\n"}
+,{"stream_name":"stdout","time":163.406214468,"data":"Using DATA_DIR: /kaggle/input/competitions/nvidia-nemotron-model-reasoning-challenge\n"}
+,{"stream_name":"stdout","time":163.406216438,"data":"Train: 9500 rows\n"}
+,{"stream_name":"stdout","time":164.844205358,"data":"Tokenizer loaded.\n"}
+,{"stream_name":"stdout","time":165.445442485,"data":"Dataset: 9500 | sample: \u003c|im_start|\u003esystem\n"}
+,{"stream_name":"stdout","time":165.445453685,"data":"\u003c|im_end|\u003e\n"}
+,{"stream_name":"stdout","time":165.445455105,"data":"\u003c|im_start|\u003euser\n"}
+,{"stream_name":"stdout","time":165.445456205,"data":"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. The transformation involves operations like bit shifts, rotations,\n"}
+,{"stream_name":"stdout","time":165.646050741,"data":"Loading model...\n"}
+,{"stream_name":"stderr","time":177.621651008,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":177.621677438,"data":"  File \"\u003cstring\u003e\", line 1, in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":177.621680998,"data":"  File \"/usr/local/lib/python3.12/dist-packages/papermill/execute.py\", line 131, in execute_notebook\n"}
+,{"stream_name":"stderr","time":177.621683448,"data":"    raise_for_execution_errors(nb, output_path)\n"}
+,{"stream_name":"stderr","time":177.621718098,"data":"  File \"/usr/local/lib/python3.12/dist-packages/papermill/execute.py\", line 251, in raise_for_execution_errors\n"}
+,{"stream_name":"stderr","time":177.621734878,"data":"    raise error\n"}
+,{"stream_name":"stderr","time":177.621986658,"data":"papermill.exceptions.PapermillExecutionError: \n"}
+,{"stream_name":"stderr","time":177.621989538,"data":"---------------------------------------------------------------------------\n"}
+,{"stream_name":"stderr","time":177.621991538,"data":"Exception encountered at \"In [8]\":\n"}
+,{"stream_name":"stderr","time":177.621993408,"data":"---------------------------------------------------------------------------\n"}
+,{"stream_name":"stderr","time":177.621995228,"data":"ModuleNotFoundError                       Traceback (most recent call last)\n"}
+,{"stream_name":"stderr","time":177.621996938,"data":"~/.cache/huggingface/modules/transformers_modules/_1/modeling_nemotron_h.py in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":177.621998748,"data":"     63     #from mamba_ssm.ops.triton.layernorm_gated import RMSNorm as RMSNormGated\n"}
+,{"stream_name":"stderr","time":177.622000598,"data":"---\u003e 64     from mamba_ssm.ops.triton.layernorm_gated import rmsnorm_fn\n"}
+,{"stream_name":"stderr","time":177.622002478,"data":"     65 except ImportError:\n"}
+,{"stream_name":"stderr","time":177.622004218,"data":"\n"}
+,{"stream_name":"stderr","time":177.622005818,"data":"/kaggle/usr/lib/notebooks/ryanholbrook/nvidia_utility_script/mamba_ssm/__init__.py in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":177.622007998,"data":"      5 from mamba_ssm.modules.mamba2 import Mamba2\n"}
+,{"stream_name":"stderr","time":177.622009988,"data":"----\u003e 6 from mamba_ssm.modules.mamba3 import Mamba3\n"}
+,{"stream_name":"stderr","time":177.622011838,"data":"      7 from mamba_ssm.models.mixer_seq_simple import MambaLMHeadModel\n"}
+,{"stream_name":"stderr","time":177.622013548,"data":"\n"}
+,{"stream_name":"stderr","time":177.622015128,"data":"/kaggle/usr/lib/notebooks/ryanholbrook/nvidia_utility_script/mamba_ssm/modules/mamba3.py in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":177.622016908,"data":"     17 \n"}
+,{"stream_name":"stderr","time":177.622018498,"data":"---\u003e 18 from mamba_ssm.ops.cute.mamba3.mamba3_step_fn import mamba3_step_fn\n"}
+,{"stream_name":"stderr","time":177.622020248,"data":"     19 \n"}
+,{"stream_name":"stderr","time":177.622021788,"data":"\n"}
+,{"stream_name":"stderr","time":177.622023368,"data":"/kaggle/usr/lib/notebooks/ryanholbrook/nvidia_utility_script/mamba_ssm/ops/cute/mamba3/mamba3_step_fn.py in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":177.622033428,"data":"     13 \n"}
+,{"stream_name":"stderr","time":177.622034678,"data":"---\u003e 14 import cutlass\n"}
+,{"stream_name":"stderr","time":177.622035948,"data":"     15 import cutlass.cute as cute\n"}
+,{"stream_name":"stderr","time":177.622037398,"data":"\n"}
+,{"stream_name":"stderr","time":177.622038508,"data":"ModuleNotFoundError: No module named 'cutlass'\n"}
+,{"stream_name":"stderr","time":177.622039678,"data":"\n"}
+,{"stream_name":"stderr","time":177.622040808,"data":"During handling of the above exception, another exception occurred:\n"}
+,{"stream_name":"stderr","time":177.622042258,"data":"\n"}
+,{"stream_name":"stderr","time":177.622043318,"data":"ImportError                               Traceback (most recent call last)\n"}
+,{"stream_name":"stderr","time":177.622044598,"data":"/tmp/ipykernel_64/2258838964.py in \u003ccell line: 0\u003e()\n"}
+,{"stream_name":"stderr","time":177.622045928,"data":"      1 print('Loading model...')\n"}
+,{"stream_name":"stderr","time":177.622047118,"data":"----\u003e 2 model=AutoModelForCausalLM.from_pretrained(MODEL_PATH,device_map='auto',trust_remote_code=True,dtype=torch.bfloat16)\n"}
+,{"stream_name":"stderr","time":177.622048508,"data":"      3 model.config.use_cache=False\n"}
+,{"stream_name":"stderr","time":177.622049778,"data":"      4 for name,mod in sys.modules.items():\n"}
+,{"stream_name":"stderr","time":177.622050988,"data":"      5     if 'modeling_nemotron_h' in name and hasattr(mod,'is_fast_path_available'):\n"}
+,{"stream_name":"stderr","time":177.622052308,"data":"\n"}
+,{"stream_name":"stderr","time":177.622053458,"data":"/kaggle/usr/lib/notebooks/ryanholbrook/nvidia_utility_script/transformers/models/auto/auto_factory.py in from_pretrained(cls, pretrained_model_name_or_path, *model_args, **kwargs)\n"}
+,{"stream_name":"stderr","time":177.622054848,"data":"    354 \n"}
+,{"stream_name":"stderr","time":177.622056248,"data":"    355         if has_remote_code and trust_remote_code:\n"}
+,{"stream_name":"stderr","time":177.622057528,"data":"--\u003e 356             model_class = get_class_from_dynamic_module(\n"}
+,{"stream_name":"stderr","time":177.622058828,"data":"    357                 class_ref, pretrained_model_name_or_path, code_revision=code_revision, **hub_kwargs, **kwargs\n"}
+,{"stream_name":"stderr","time":177.622060138,"data":"    358             )\n"}
+,{"stream_name":"stderr","time":177.622061308,"data":"\n"}
+,{"stream_name":"stderr","time":177.622062668,"data":"/kaggle/usr/lib/notebooks/ryanholbrook/nvidia_utility_script/transformers/dynamic_module_utils.py in get_class_from_dynamic_module(class_reference, pretrained_model_name_or_path, cache_dir, force_download, proxies, token, revision, local_files_only, repo_type, code_revision, **kwargs)\n"}
+,{"stream_name":"stderr","time":177.622065168,"data":"    581         repo_type=repo_type,\n"}
+,{"stream_name":"stderr","time":177.622066388,"data":"    582     )\n"}
+,{"stream_name":"stderr","time":177.622067538,"data":"--\u003e 583     return get_class_in_module(class_name, final_module, force_reload=force_download)\n"}
+,{"stream_name":"stderr","time":177.622068848,"data":"    584 \n"}
+,{"stream_name":"stderr","time":177.622070008,"data":"    585 \n"}
+,{"stream_name":"stderr","time":177.622071128,"data":"\n"}
+,{"stream_name":"stderr","time":177.622072378,"data":"/kaggle/usr/lib/notebooks/ryanholbrook/nvidia_utility_script/transformers/dynamic_module_utils.py in get_class_in_module(class_name, module_path, force_reload)\n"}
+,{"stream_name":"stderr","time":177.622073778,"data":"    307         # reload in both cases, unless the module is already imported and the hash hits\n"}
+,{"stream_name":"stderr","time":177.622076848,"data":"    308         if getattr(module, \"__transformers_module_hash__\", \"\") != module_hash:\n"}
+,{"stream_name":"stderr","time":177.622078568,"data":"--\u003e 309             module_spec.loader.exec_module(module)\n"}
+,{"stream_name":"stderr","time":177.622079868,"data":"    310             module.__transformers_module_hash__ = module_hash\n"}
+,{"stream_name":"stderr","time":177.622081128,"data":"    311         return getattr(module, class_name)\n"}
+,{"stream_name":"stderr","time":177.622082338,"data":"\n"}
+,{"stream_name":"stderr","time":177.622083418,"data":"/usr/lib/python3.12/importlib/_bootstrap_external.py in exec_module(self, module)\n"}
+,{"stream_name":"stderr","time":177.622084688,"data":"\n"}
+,{"stream_name":"stderr","time":177.622085788,"data":"/usr/lib/python3.12/importlib/_bootstrap.py in _call_with_frames_removed(f, *args, **kwds)\n"}
+,{"stream_name":"stderr","time":177.622087038,"data":"\n"}
+,{"stream_name":"stderr","time":177.622088138,"data":"~/.cache/huggingface/modules/transformers_modules/_1/modeling_nemotron_h.py in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":177.622089448,"data":"     64     from mamba_ssm.ops.triton.layernorm_gated import rmsnorm_fn\n"}
+,{"stream_name":"stderr","time":177.622090688,"data":"     65 except ImportError:\n"}
+,{"stream_name":"stderr","time":177.622091878,"data":"---\u003e 66     raise ImportError(\"mamba-ssm is required by the Mamba model but cannot be imported\")\n"}
+,{"stream_name":"stderr","time":177.622093288,"data":"     67 \n"}
+,{"stream_name":"stderr","time":177.622094408,"data":"     68 if is_causal_conv1d_available():\n"}
+,{"stream_name":"stderr","time":177.622095668,"data":"\n"}
+,{"stream_name":"stderr","time":177.622096758,"data":"ImportError: mamba-ssm is required by the Mamba model but cannot be imported\n"}
+,{"stream_name":"stderr","time":177.622098058,"data":"\n"}
+,{"stream_name":"stderr","time":178.861200232,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":178.861219212,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":179.002456189,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":179.002465739,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":179.952286189,"data":"/usr/local/lib/python3.12/dist-packages/traitlets/traitlets.py:2915: FutureWarning: --Exporter.preprocessors=[\"remove_papermill_header.RemovePapermillHeader\"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.\n"}
+,{"stream_name":"stderr","time":179.952294089,"data":"  warn(\n"}
+,{"stream_name":"stderr","time":179.991908758,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":180.132669706,"data":"[NbConvertApp] Writing 40454 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":182.018046426,"data":"/usr/local/lib/python3.12/dist-packages/traitlets/traitlets.py:2915: FutureWarning: --Exporter.preprocessors=[\"nbconvert.preprocessors.ExtractOutputPreprocessor\"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.\n"}
+,{"stream_name":"stderr","time":182.018065326,"data":"  warn(\n"}
+,{"stream_name":"stderr","time":182.051903105,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":182.553567594,"data":"[NbConvertApp] Writing 333627 bytes to __results__.html\n"}
+]

@@ -1,0 +1,147 @@
+[{"stream_name":"stderr","time":6.874246637,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":6.874269997,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":6.874272007,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":6.874273087,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":7.31195757,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":7.31197965,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":7.31198136,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":7.31198257,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":86.150024572,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":86.150048272,"data":"bigframes 2.31.0 requires google-cloud-bigquery-storage\u003c3.0.0,\u003e=2.30.0, which is not installed.\n"}
+,{"stream_name":"stderr","time":86.150051592,"data":"google-adk 1.21.0 requires google-cloud-bigquery-storage\u003e=2.0.0, which is not installed.\n"}
+,{"stream_name":"stderr","time":86.150053612,"data":"torchvision 0.26.0.dev20260324+cu128 requires torch==2.12.0.dev20260324, but you have torch 2.11.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":86.150055442,"data":"cuda-python 12.9.6 requires cuda-bindings~=12.9.6, but you have cuda-bindings 13.2.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":86.150057202,"data":"ydata-profiling 4.18.1 requires numpy\u003c2.4,\u003e=1.22, but you have numpy 2.4.4 which is incompatible.\n"}
+,{"stream_name":"stderr","time":86.150059002,"data":"ydata-profiling 4.18.1 requires pandas!=1.4.0,\u003c3.0,\u003e1.5, but you have pandas 3.0.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":86.150060952,"data":"ydata-profiling 4.18.1 requires scipy\u003c1.17,\u003e=1.8, but you have scipy 1.17.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":86.150260052,"data":"google-colab 1.0.0 requires jupyter-server==2.14.0, but you have jupyter-server 2.12.5 which is incompatible.\n"}
+,{"stream_name":"stderr","time":86.150270092,"data":"google-colab 1.0.0 requires pandas==2.2.2, but you have pandas 3.0.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":86.150271982,"data":"google-colab 1.0.0 requires requests==2.32.4, but you have requests 2.33.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":86.150273312,"data":"dopamine-rl 4.1.2 requires gym\u003c=0.25.2, but you have gym 0.26.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":86.150274722,"data":"db-dtypes 1.5.0 requires pandas\u003c3.0.0,\u003e=1.5.3, but you have pandas 3.0.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":86.150276122,"data":"bigframes 2.31.0 requires rich\u003c14,\u003e=12.4.4, but you have rich 14.3.3 which is incompatible.\n"}
+,{"stream_name":"stderr","time":86.150277452,"data":"opencv-contrib-python 4.12.0.88 requires numpy\u003c2.3.0,\u003e=2; python_version \u003e= \"3.9\", but you have numpy 2.4.4 which is incompatible.\n"}
+,{"stream_name":"stderr","time":86.150278892,"data":"opencv-python 4.12.0.88 requires numpy\u003c2.3.0,\u003e=2; python_version \u003e= \"3.9\", but you have numpy 2.4.4 which is incompatible.\n"}
+,{"stream_name":"stderr","time":86.150285712,"data":"libcuml-cu12 25.10.0 requires cuda-toolkit[cublas,cufft,curand,cusolver,cusparse]==12.*, but you have cuda-toolkit 13.0.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":86.150286912,"data":"cudf-cu12 25.10.0 requires cuda-toolkit[nvcc,nvrtc]==12.*, but you have cuda-toolkit 13.0.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":86.150287852,"data":"cudf-cu12 25.10.0 requires pandas\u003c2.4.0dev0,\u003e=2.0, but you have pandas 3.0.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":86.150288822,"data":"libraft-cu12 25.10.0 requires cuda-toolkit[cublas,curand,cusolver,cusparse]==12.*, but you have cuda-toolkit 13.0.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":86.150289712,"data":"bqplot 0.12.45 requires pandas\u003c3.0.0,\u003e=1.0.0, but you have pandas 3.0.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":86.150290652,"data":"opencv-python-headless 4.12.0.88 requires numpy\u003c2.3.0,\u003e=2; python_version \u003e= \"3.9\", but you have numpy 2.4.4 which is incompatible.\n"}
+,{"stream_name":"stderr","time":86.150291672,"data":"tensorflow 2.19.0 requires numpy\u003c2.2.0,\u003e=1.26.0, but you have numpy 2.4.4 which is incompatible.\n"}
+,{"stream_name":"stderr","time":86.150292522,"data":"numba 0.60.0 requires numpy\u003c2.1,\u003e=1.22, but you have numpy 2.4.4 which is incompatible.\n"}
+,{"stream_name":"stderr","time":86.150293392,"data":"cuml-cu12 25.10.0 requires cuda-toolkit[cublas,cufft,curand,cusolver,cusparse]==12.*, but you have cuda-toolkit 13.0.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":86.150294282,"data":"langchain-core 1.2.7 requires packaging\u003c26.0.0,\u003e=23.2.0, but you have packaging 26.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":86.150295152,"data":"fastai 2.8.6 requires torch\u003c2.10,\u003e=1.10, but you have torch 2.11.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":86.150296322,"data":"dask-cudf-cu12 25.10.0 requires pandas\u003c2.4.0dev0,\u003e=2.0, but you have pandas 3.0.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":86.150297232,"data":"gcsfs 2025.3.0 requires fsspec==2025.3.0, but you have fsspec 2026.2.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":86.150298072,"data":"gradio 5.50.0 requires pandas\u003c3.0,\u003e=1.0, but you have pandas 3.0.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":86.150298942,"data":"gradio 5.50.0 requires pillow\u003c12.0,\u003e=8.0, but you have pillow 12.1.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":86.352921989,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":86.352934689,"data":"bigframes 2.31.0 requires google-cloud-bigquery-storage\u003c3.0.0,\u003e=2.30.0, which is not installed.\n"}
+,{"stream_name":"stderr","time":86.352936189,"data":"google-adk 1.21.0 requires google-cloud-bigquery-storage\u003e=2.0.0, which is not installed.\n"}
+,{"stream_name":"stderr","time":86.352937169,"data":"torchvision 0.26.0.dev20260324+cu128 requires torch==2.12.0.dev20260324, but you have torch 2.11.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":86.352938029,"data":"cuda-python 12.9.6 requires cuda-bindings~=12.9.6, but you have cuda-bindings 13.2.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":86.352938859,"data":"ydata-profiling 4.18.1 requires numpy\u003c2.4,\u003e=1.22, but you have numpy 2.4.4 which is incompatible.\n"}
+,{"stream_name":"stderr","time":86.352939859,"data":"ydata-profiling 4.18.1 requires pandas!=1.4.0,\u003c3.0,\u003e1.5, but you have pandas 3.0.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":86.352959529,"data":"ydata-profiling 4.18.1 requires scipy\u003c1.17,\u003e=1.8, but you have scipy 1.17.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":86.352960929,"data":"google-colab 1.0.0 requires jupyter-server==2.14.0, but you have jupyter-server 2.12.5 which is incompatible.\n"}
+,{"stream_name":"stderr","time":86.352961769,"data":"google-colab 1.0.0 requires pandas==2.2.2, but you have pandas 3.0.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":86.352962719,"data":"google-colab 1.0.0 requires requests==2.32.4, but you have requests 2.33.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":86.352963529,"data":"dopamine-rl 4.1.2 requires gym\u003c=0.25.2, but you have gym 0.26.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":86.352964379,"data":"db-dtypes 1.5.0 requires pandas\u003c3.0.0,\u003e=1.5.3, but you have pandas 3.0.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":86.352965229,"data":"bigframes 2.31.0 requires rich\u003c14,\u003e=12.4.4, but you have rich 14.3.3 which is incompatible.\n"}
+,{"stream_name":"stderr","time":86.352966349,"data":"opencv-contrib-python 4.12.0.88 requires numpy\u003c2.3.0,\u003e=2; python_version \u003e= \"3.9\", but you have numpy 2.4.4 which is incompatible.\n"}
+,{"stream_name":"stderr","time":86.352967389,"data":"opencv-python 4.12.0.88 requires numpy\u003c2.3.0,\u003e=2; python_version \u003e= \"3.9\", but you have numpy 2.4.4 which is incompatible.\n"}
+,{"stream_name":"stderr","time":86.352968379,"data":"libcuml-cu12 25.10.0 requires cuda-toolkit[cublas,cufft,curand,cusolver,cusparse]==12.*, but you have cuda-toolkit 13.0.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":86.352969229,"data":"cudf-cu12 25.10.0 requires cuda-toolkit[nvcc,nvrtc]==12.*, but you have cuda-toolkit 13.0.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":86.352970349,"data":"cudf-cu12 25.10.0 requires pandas\u003c2.4.0dev0,\u003e=2.0, but you have pandas 3.0.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":86.352971249,"data":"libraft-cu12 25.10.0 requires cuda-toolkit[cublas,curand,cusolver,cusparse]==12.*, but you have cuda-toolkit 13.0.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":86.352972119,"data":"bqplot 0.12.45 requires pandas\u003c3.0.0,\u003e=1.0.0, but you have pandas 3.0.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":86.352972969,"data":"opencv-python-headless 4.12.0.88 requires numpy\u003c2.3.0,\u003e=2; python_version \u003e= \"3.9\", but you have numpy 2.4.4 which is incompatible.\n"}
+,{"stream_name":"stderr","time":86.352973899,"data":"tensorflow 2.19.0 requires numpy\u003c2.2.0,\u003e=1.26.0, but you have numpy 2.4.4 which is incompatible.\n"}
+,{"stream_name":"stderr","time":86.352974749,"data":"numba 0.60.0 requires numpy\u003c2.1,\u003e=1.22, but you have numpy 2.4.4 which is incompatible.\n"}
+,{"stream_name":"stderr","time":86.352975619,"data":"cuml-cu12 25.10.0 requires cuda-toolkit[cublas,cufft,curand,cusolver,cusparse]==12.*, but you have cuda-toolkit 13.0.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":86.352976489,"data":"langchain-core 1.2.7 requires packaging\u003c26.0.0,\u003e=23.2.0, but you have packaging 26.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":86.352977379,"data":"fastai 2.8.6 requires torch\u003c2.10,\u003e=1.10, but you have torch 2.11.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":86.352978229,"data":"dask-cudf-cu12 25.10.0 requires pandas\u003c2.4.0dev0,\u003e=2.0, but you have pandas 3.0.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":86.352979089,"data":"gcsfs 2025.3.0 requires fsspec==2025.3.0, but you have fsspec 2026.2.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":86.352981269,"data":"gradio 5.50.0 requires pandas\u003c3.0,\u003e=1.0, but you have pandas 3.0.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":86.352982149,"data":"gradio 5.50.0 requires pillow\u003c12.0,\u003e=8.0, but you have pillow 12.1.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":86.352983009,"data":"\n"}
+,{"stream_name":"stderr","time":86.352983789,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":86.352984679,"data":"bigframes 2.31.0 requires google-cloud-bigquery-storage\u003c3.0.0,\u003e=2.30.0, which is not installed.\n"}
+,{"stream_name":"stderr","time":86.352985509,"data":"google-adk 1.21.0 requires google-cloud-bigquery-storage\u003e=2.0.0, which is not installed.\n"}
+,{"stream_name":"stderr","time":86.352986379,"data":"torchvision 0.26.0.dev20260324+cu128 requires torch==2.12.0.dev20260324, but you have torch 2.11.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":86.352988769,"data":"cuda-python 12.9.6 requires cuda-bindings~=12.9.6, but you have cuda-bindings 13.2.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":86.352989669,"data":"ydata-profiling 4.18.1 requires numpy\u003c2.4,\u003e=1.22, but you have numpy 2.4.4 which is incompatible.\n"}
+,{"stream_name":"stderr","time":86.352990699,"data":"ydata-profiling 4.18.1 requires pandas!=1.4.0,\u003c3.0,\u003e1.5, but you have pandas 3.0.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":86.352991549,"data":"ydata-profiling 4.18.1 requires scipy\u003c1.17,\u003e=1.8, but you have scipy 1.17.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":86.352992469,"data":"google-colab 1.0.0 requires jupyter-server==2.14.0, but you have jupyter-server 2.12.5 which is incompatible.\n"}
+,{"stream_name":"stderr","time":86.352993309,"data":"google-colab 1.0.0 requires pandas==2.2.2, but you have pandas 3.0.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":86.352994099,"data":"google-colab 1.0.0 requires requests==2.32.4, but you have requests 2.33.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":86.352994919,"data":"dopamine-rl 4.1.2 requires gym\u003c=0.25.2, but you have gym 0.26.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":86.352995749,"data":"db-dtypes 1.5.0 requires pandas\u003c3.0.0,\u003e=1.5.3, but you have pandas 3.0.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":86.352996589,"data":"bigframes 2.31.0 requires rich\u003c14,\u003e=12.4.4, but you have rich 14.3.3 which is incompatible.\n"}
+,{"stream_name":"stderr","time":86.352997509,"data":"opencv-contrib-python 4.12.0.88 requires numpy\u003c2.3.0,\u003e=2; python_version \u003e= \"3.9\", but you have numpy 2.4.4 which is incompatible.\n"}
+,{"stream_name":"stderr","time":86.352998399,"data":"opencv-python 4.12.0.88 requires numpy\u003c2.3.0,\u003e=2; python_version \u003e= \"3.9\", but you have numpy 2.4.4 which is incompatible.\n"}
+,{"stream_name":"stderr","time":86.352999309,"data":"libcuml-cu12 25.10.0 requires cuda-toolkit[cublas,cufft,curand,cusolver,cusparse]==12.*, but you have cuda-toolkit 13.0.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":86.353000159,"data":"cudf-cu12 25.10.0 requires cuda-toolkit[nvcc,nvrtc]==12.*, but you have cuda-toolkit 13.0.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":86.353000959,"data":"cudf-cu12 25.10.0 requires pandas\u003c2.4.0dev0,\u003e=2.0, but you have pandas 3.0.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":86.353001829,"data":"libraft-cu12 25.10.0 requires cuda-toolkit[cublas,curand,cusolver,cusparse]==12.*, but you have cuda-toolkit 13.0.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":86.353003969,"data":"bqplot 0.12.45 requires pandas\u003c3.0.0,\u003e=1.0.0, but you have pandas 3.0.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":86.353004819,"data":"opencv-python-headless 4.12.0.88 requires numpy\u003c2.3.0,\u003e=2; python_version \u003e= \"3.9\", but you have numpy 2.4.4 which is incompatible.\n"}
+,{"stream_name":"stderr","time":86.353005719,"data":"tensorflow 2.19.0 requires numpy\u003c2.2.0,\u003e=1.26.0, but you have numpy 2.4.4 which is incompatible.\n"}
+,{"stream_name":"stderr","time":86.353006549,"data":"numba 0.60.0 requires numpy\u003c2.1,\u003e=1.22, but you have numpy 2.4.4 which is incompatible.\n"}
+,{"stream_name":"stderr","time":86.353007429,"data":"cuml-cu12 25.10.0 requires cuda-toolkit[cublas,cufft,curand,cusolver,cusparse]==12.*, but you have cuda-toolkit 13.0.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":86.353008409,"data":"langchain-core 1.2.7 requires packaging\u003c26.0.0,\u003e=23.2.0, but you have packaging 26.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":86.353009269,"data":"fastai 2.8.6 requires torch\u003c2.10,\u003e=1.10, but you have torch 2.11.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":86.353010099,"data":"dask-cudf-cu12 25.10.0 requires pandas\u003c2.4.0dev0,\u003e=2.0, but you have pandas 3.0.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":86.353010939,"data":"gcsfs 2025.3.0 requires fsspec==2025.3.0, but you have fsspec 2026.2.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":86.353011759,"data":"gradio 5.50.0 requires pandas\u003c3.0,\u003e=1.0, but you have pandas 3.0.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":86.353012619,"data":"gradio 5.50.0 requires pillow\u003c12.0,\u003e=8.0, but you have pillow 12.1.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":136.713976739,"data":"/kaggle/usr/lib/notebooks/ryanholbrook/nvidia_utility_script/torch/compiler/__init__.py:148: FutureWarning: torch._dynamo.allow_in_graph is deprecated and will be removed in a future version. Use torch._dynamo.nonstrict_trace instead.\n"}
+,{"stream_name":"stderr","time":136.713997259,"data":"  return torch._dynamo.allow_in_graph(fn)\n"}
+,{"stream_name":"stderr","time":136.713999159,"data":"\n"}
+,{"stream_name":"stderr","time":136.714000389,"data":"/kaggle/usr/lib/notebooks/ryanholbrook/nvidia_utility_script/torch/compiler/__init__.py:148: FutureWarning: torch._dynamo.allow_in_graph is deprecated and will be removed in a future version. Use torch._dynamo.nonstrict_trace instead.\n"}
+,{"stream_name":"stderr","time":136.714001929,"data":"  return torch._dynamo.allow_in_graph(fn)\n"}
+,{"stream_name":"stdout","time":140.316702115,"data":"trl imported OK\n"}
+,{"stream_name":"stdout","time":140.316740785,"data":"CUDA: True\n"}
+,{"stream_name":"stdout","time":140.316742695,"data":"GPU: NVIDIA RTX PRO 6000 Blackwell Server Edition | VRAM: 102.0 GB\n"}
+,{"stream_name":"stdout","time":140.859124457,"data":"Found: ['/kaggle/input/competitions/nvidia-nemotron-model-reasoning-challenge/train.csv']\n"}
+,{"stream_name":"stdout","time":140.859135597,"data":"DATA_DIR: /kaggle/input/competitions/nvidia-nemotron-model-reasoning-challenge\n"}
+,{"stream_name":"stdout","time":140.869894887,"data":"Triton patches applied.\n"}
+,{"stream_name":"stdout","time":141.059544644,"data":"Train: 9500 rows\n"}
+,{"stream_name":"stdout","time":142.149111418,"data":"Tokenizer OK\n"}
+,{"stream_name":"stdout","time":142.61562129,"data":"Dataset: 9500 | sample[:200]: \u003c|im_start|\u003esystem\n"}
+,{"stream_name":"stdout","time":142.61562695,"data":"\u003c|im_end|\u003e\n"}
+,{"stream_name":"stdout","time":142.61562859,"data":"\u003c|im_start|\u003euser\n"}
+,{"stream_name":"stdout","time":142.6156356,"data":"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. The transformation involves operations like bit shifts, rotations,\n"}
+,{"stream_name":"stderr","time":146.057206139,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":146.057229399,"data":"  File \"\u003cstring\u003e\", line 1, in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":146.057233679,"data":"  File \"/usr/local/lib/python3.12/dist-packages/papermill/execute.py\", line 131, in execute_notebook\n"}
+,{"stream_name":"stderr","time":146.057269509,"data":"    raise_for_execution_errors(nb, output_path)\n"}
+,{"stream_name":"stderr","time":146.057293299,"data":"  File \"/usr/local/lib/python3.12/dist-packages/papermill/execute.py\", line 251, in raise_for_execution_errors\n"}
+,{"stream_name":"stderr","time":146.057349099,"data":"    raise error\n"}
+,{"stream_name":"stderr","time":146.057476729,"data":"papermill.exceptions.PapermillExecutionError: \n"}
+,{"stream_name":"stderr","time":146.057479129,"data":"---------------------------------------------------------------------------\n"}
+,{"stream_name":"stderr","time":146.057480849,"data":"Exception encountered at \"In [5]\":\n"}
+,{"stream_name":"stderr","time":146.057482509,"data":"  File \"/tmp/ipykernel_65/3343653511.py\", line 5\n"}
+,{"stream_name":"stderr","time":146.057484269,"data":"    r2 = subprocess.run(\"find /kaggle/usr -name \"*.py\" -path \"*python_packages*\" 2\u003e/dev/null | head -5\", shell=True, capture_output=True, text=True)\n"}
+,{"stream_name":"stderr","time":146.057486379,"data":"                                                  ^\n"}
+,{"stream_name":"stderr","time":146.057488109,"data":"SyntaxError: invalid syntax\n"}
+,{"stream_name":"stderr","time":146.057489739,"data":"\n"}
+,{"stream_name":"stderr","time":146.057491279,"data":"\n"}
+,{"stream_name":"stderr","time":147.285410501,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":147.285428971,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":147.406494139,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":147.406500639,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":148.01828853,"data":"/usr/local/lib/python3.12/dist-packages/traitlets/traitlets.py:2915: FutureWarning: --Exporter.preprocessors=[\"remove_papermill_header.RemovePapermillHeader\"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.\n"}
+,{"stream_name":"stderr","time":148.01829709,"data":"  warn(\n"}
+,{"stream_name":"stderr","time":148.065794609,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":148.206035717,"data":"[NbConvertApp] Writing 30231 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":149.748080824,"data":"/usr/local/lib/python3.12/dist-packages/traitlets/traitlets.py:2915: FutureWarning: --Exporter.preprocessors=[\"nbconvert.preprocessors.ExtractOutputPreprocessor\"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.\n"}
+,{"stream_name":"stderr","time":149.748098674,"data":"  warn(\n"}
+,{"stream_name":"stderr","time":149.770576513,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":150.290289265,"data":"[NbConvertApp] Writing 327424 bytes to __results__.html\n"}
+]

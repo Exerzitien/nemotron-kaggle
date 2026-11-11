@@ -1,0 +1,152 @@
+[{"stream_name":"stderr","time":6.184441701,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":6.184480131,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":6.184482371,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":6.184483511,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":6.622082129,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":6.622100009,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":6.622101499,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":6.622102419,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":7.948849476,"data":"append /kaggle/usr/lib/notebooks/ryanholbrook/nvidia-utility-script/nvidia_cutlass_dsl/python_packages\n"}
+,{"stream_name":"stderr","time":87.535354636,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":87.535382056,"data":"bigframes 2.31.0 requires google-cloud-bigquery-storage\u003c3.0.0,\u003e=2.30.0, which is not installed.\n"}
+,{"stream_name":"stderr","time":87.535384306,"data":"google-adk 1.21.0 requires google-cloud-bigquery-storage\u003e=2.0.0, which is not installed.\n"}
+,{"stream_name":"stderr","time":87.535385886,"data":"torchvision 0.26.0.dev20260324+cu128 requires torch==2.12.0.dev20260324, but you have torch 2.10.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":87.535387246,"data":"cuda-python 12.9.6 requires cuda-bindings~=12.9.6, but you have cuda-bindings 12.9.4 which is incompatible.\n"}
+,{"stream_name":"stderr","time":87.535388376,"data":"ydata-profiling 4.18.1 requires pandas!=1.4.0,\u003c3.0,\u003e1.5, but you have pandas 3.0.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":87.535389676,"data":"ydata-profiling 4.18.1 requires scipy\u003c1.17,\u003e=1.8, but you have scipy 1.17.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":87.535391016,"data":"google-colab 1.0.0 requires jupyter-server==2.14.0, but you have jupyter-server 2.12.5 which is incompatible.\n"}
+,{"stream_name":"stderr","time":87.535392246,"data":"google-colab 1.0.0 requires pandas==2.2.2, but you have pandas 3.0.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":87.535479956,"data":"google-colab 1.0.0 requires requests==2.32.4, but you have requests 2.32.5 which is incompatible.\n"}
+,{"stream_name":"stderr","time":87.535490976,"data":"dopamine-rl 4.1.2 requires gym\u003c=0.25.2, but you have gym 0.26.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":87.535493066,"data":"db-dtypes 1.5.0 requires pandas\u003c3.0.0,\u003e=1.5.3, but you have pandas 3.0.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":87.535494556,"data":"bigframes 2.31.0 requires rich\u003c14,\u003e=12.4.4, but you have rich 14.3.3 which is incompatible.\n"}
+,{"stream_name":"stderr","time":87.535495956,"data":"cudf-cu12 25.10.0 requires pandas\u003c2.4.0dev0,\u003e=2.0, but you have pandas 3.0.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":87.535497196,"data":"bqplot 0.12.45 requires pandas\u003c3.0.0,\u003e=1.0.0, but you have pandas 3.0.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":87.535498516,"data":"tensorflow 2.19.0 requires numpy\u003c2.2.0,\u003e=1.26.0, but you have numpy 2.2.6 which is incompatible.\n"}
+,{"stream_name":"stderr","time":87.535505876,"data":"numba 0.60.0 requires numpy\u003c2.1,\u003e=1.22, but you have numpy 2.2.6 which is incompatible.\n"}
+,{"stream_name":"stderr","time":87.535507106,"data":"langchain-core 1.2.7 requires packaging\u003c26.0.0,\u003e=23.2.0, but you have packaging 26.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":87.535508066,"data":"fastai 2.8.6 requires torch\u003c2.10,\u003e=1.10, but you have torch 2.10.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":87.535509066,"data":"dask-cudf-cu12 25.10.0 requires pandas\u003c2.4.0dev0,\u003e=2.0, but you have pandas 3.0.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":87.535509986,"data":"gcsfs 2025.3.0 requires fsspec==2025.3.0, but you have fsspec 2025.9.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":87.535510976,"data":"gradio 5.50.0 requires pandas\u003c3.0,\u003e=1.0, but you have pandas 3.0.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":87.535511846,"data":"gradio 5.50.0 requires pillow\u003c12.0,\u003e=8.0, but you have pillow 12.1.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":87.738279598,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":87.738295778,"data":"bigframes 2.31.0 requires google-cloud-bigquery-storage\u003c3.0.0,\u003e=2.30.0, which is not installed.\n"}
+,{"stream_name":"stderr","time":87.738297488,"data":"google-adk 1.21.0 requires google-cloud-bigquery-storage\u003e=2.0.0, which is not installed.\n"}
+,{"stream_name":"stderr","time":87.738298608,"data":"torchvision 0.26.0.dev20260324+cu128 requires torch==2.12.0.dev20260324, but you have torch 2.10.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":87.738299658,"data":"cuda-python 12.9.6 requires cuda-bindings~=12.9.6, but you have cuda-bindings 12.9.4 which is incompatible.\n"}
+,{"stream_name":"stderr","time":87.738300468,"data":"ydata-profiling 4.18.1 requires pandas!=1.4.0,\u003c3.0,\u003e1.5, but you have pandas 3.0.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":87.738301428,"data":"ydata-profiling 4.18.1 requires scipy\u003c1.17,\u003e=1.8, but you have scipy 1.17.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":87.738302328,"data":"google-colab 1.0.0 requires jupyter-server==2.14.0, but you have jupyter-server 2.12.5 which is incompatible.\n"}
+,{"stream_name":"stderr","time":87.738303168,"data":"google-colab 1.0.0 requires pandas==2.2.2, but you have pandas 3.0.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":87.738303968,"data":"google-colab 1.0.0 requires requests==2.32.4, but you have requests 2.32.5 which is incompatible.\n"}
+,{"stream_name":"stderr","time":87.738304848,"data":"dopamine-rl 4.1.2 requires gym\u003c=0.25.2, but you have gym 0.26.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":87.738305688,"data":"db-dtypes 1.5.0 requires pandas\u003c3.0.0,\u003e=1.5.3, but you have pandas 3.0.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":87.738306778,"data":"bigframes 2.31.0 requires rich\u003c14,\u003e=12.4.4, but you have rich 14.3.3 which is incompatible.\n"}
+,{"stream_name":"stderr","time":87.738307698,"data":"cudf-cu12 25.10.0 requires pandas\u003c2.4.0dev0,\u003e=2.0, but you have pandas 3.0.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":87.738308718,"data":"bqplot 0.12.45 requires pandas\u003c3.0.0,\u003e=1.0.0, but you have pandas 3.0.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":87.738309638,"data":"tensorflow 2.19.0 requires numpy\u003c2.2.0,\u003e=1.26.0, but you have numpy 2.2.6 which is incompatible.\n"}
+,{"stream_name":"stderr","time":87.738314998,"data":"numba 0.60.0 requires numpy\u003c2.1,\u003e=1.22, but you have numpy 2.2.6 which is incompatible.\n"}
+,{"stream_name":"stderr","time":87.738316138,"data":"langchain-core 1.2.7 requires packaging\u003c26.0.0,\u003e=23.2.0, but you have packaging 26.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":87.738317048,"data":"fastai 2.8.6 requires torch\u003c2.10,\u003e=1.10, but you have torch 2.10.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":87.738318658,"data":"dask-cudf-cu12 25.10.0 requires pandas\u003c2.4.0dev0,\u003e=2.0, but you have pandas 3.0.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":87.738319648,"data":"gcsfs 2025.3.0 requires fsspec==2025.3.0, but you have fsspec 2025.9.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":87.738320718,"data":"gradio 5.50.0 requires pandas\u003c3.0,\u003e=1.0, but you have pandas 3.0.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":87.738321658,"data":"gradio 5.50.0 requires pillow\u003c12.0,\u003e=8.0, but you have pillow 12.1.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":87.738322518,"data":"\n"}
+,{"stream_name":"stderr","time":87.738323298,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":87.738324208,"data":"bigframes 2.31.0 requires google-cloud-bigquery-storage\u003c3.0.0,\u003e=2.30.0, which is not installed.\n"}
+,{"stream_name":"stderr","time":87.738325058,"data":"google-adk 1.21.0 requires google-cloud-bigquery-storage\u003e=2.0.0, which is not installed.\n"}
+,{"stream_name":"stderr","time":87.738325928,"data":"torchvision 0.26.0.dev20260324+cu128 requires torch==2.12.0.dev20260324, but you have torch 2.10.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":87.738326748,"data":"cuda-python 12.9.6 requires cuda-bindings~=12.9.6, but you have cuda-bindings 12.9.4 which is incompatible.\n"}
+,{"stream_name":"stderr","time":87.738327558,"data":"ydata-profiling 4.18.1 requires pandas!=1.4.0,\u003c3.0,\u003e1.5, but you have pandas 3.0.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":87.738328428,"data":"ydata-profiling 4.18.1 requires scipy\u003c1.17,\u003e=1.8, but you have scipy 1.17.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":87.738329778,"data":"google-colab 1.0.0 requires jupyter-server==2.14.0, but you have jupyter-server 2.12.5 which is incompatible.\n"}
+,{"stream_name":"stderr","time":87.738330718,"data":"google-colab 1.0.0 requires pandas==2.2.2, but you have pandas 3.0.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":87.738331508,"data":"google-colab 1.0.0 requires requests==2.32.4, but you have requests 2.32.5 which is incompatible.\n"}
+,{"stream_name":"stderr","time":87.738332328,"data":"dopamine-rl 4.1.2 requires gym\u003c=0.25.2, but you have gym 0.26.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":87.738333198,"data":"db-dtypes 1.5.0 requires pandas\u003c3.0.0,\u003e=1.5.3, but you have pandas 3.0.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":87.738334048,"data":"bigframes 2.31.0 requires rich\u003c14,\u003e=12.4.4, but you have rich 14.3.3 which is incompatible.\n"}
+,{"stream_name":"stderr","time":87.738334868,"data":"cudf-cu12 25.10.0 requires pandas\u003c2.4.0dev0,\u003e=2.0, but you have pandas 3.0.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":87.738336168,"data":"bqplot 0.12.45 requires pandas\u003c3.0.0,\u003e=1.0.0, but you have pandas 3.0.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":87.738339448,"data":"tensorflow 2.19.0 requires numpy\u003c2.2.0,\u003e=1.26.0, but you have numpy 2.2.6 which is incompatible.\n"}
+,{"stream_name":"stderr","time":87.738341088,"data":"numba 0.60.0 requires numpy\u003c2.1,\u003e=1.22, but you have numpy 2.2.6 which is incompatible.\n"}
+,{"stream_name":"stderr","time":87.738342898,"data":"langchain-core 1.2.7 requires packaging\u003c26.0.0,\u003e=23.2.0, but you have packaging 26.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":87.738344488,"data":"fastai 2.8.6 requires torch\u003c2.10,\u003e=1.10, but you have torch 2.10.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":87.738345798,"data":"dask-cudf-cu12 25.10.0 requires pandas\u003c2.4.0dev0,\u003e=2.0, but you have pandas 3.0.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":87.738347208,"data":"gcsfs 2025.3.0 requires fsspec==2025.3.0, but you have fsspec 2025.9.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":87.738348048,"data":"gradio 5.50.0 requires pandas\u003c3.0,\u003e=1.0, but you have pandas 3.0.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":87.738348918,"data":"gradio 5.50.0 requires pillow\u003c12.0,\u003e=8.0, but you have pillow 12.1.1 which is incompatible.\n"}
+,{"stream_name":"stdout","time":91.036451978,"data":"Installed from offline packages\n"}
+,{"stream_name":"stderr","time":178.00080049,"data":"/kaggle/usr/lib/notebooks/ryanholbrook/nvidia-utility-script/torch/compiler/__init__.py:148: FutureWarning: torch._dynamo.allow_in_graph is deprecated and will be removed in a future version. Use torch._dynamo.nonstrict_trace instead.\n"}
+,{"stream_name":"stderr","time":178.00082034,"data":"  return torch._dynamo.allow_in_graph(fn)\n"}
+,{"stream_name":"stderr","time":178.00082235,"data":"\n"}
+,{"stream_name":"stderr","time":178.0008237,"data":"/kaggle/usr/lib/notebooks/ryanholbrook/nvidia-utility-script/torch/compiler/__init__.py:148: FutureWarning: torch._dynamo.allow_in_graph is deprecated and will be removed in a future version. Use torch._dynamo.nonstrict_trace instead.\n"}
+,{"stream_name":"stderr","time":178.00082505,"data":"  return torch._dynamo.allow_in_graph(fn)\n"}
+,{"stream_name":"stdout","time":180.7436823,"data":"Triton ptxas fix applied.\n"}
+,{"stream_name":"stdout","time":696.958473263,"data":"Patched transformers_modules._1.modeling_nemotron_h: is_fast_path_available = False\n"}
+,{"stream_name":"stderr","time":697.968268977,"data":"/usr/local/lib/python3.12/dist-packages/torchao/float8/float8_tensor.py:122: FutureWarning: torch._dynamo.allow_in_graph is deprecated and will be removed in a future version. Use torch._dynamo.nonstrict_trace instead.\n"}
+,{"stream_name":"stderr","time":697.968291317,"data":"  @torch._dynamo.allow_in_graph\n"}
+,{"stream_name":"stderr","time":697.968293667,"data":"/usr/local/lib/python3.12/dist-packages/torchao/float8/float8_tensor.py:195: FutureWarning: torch._dynamo.allow_in_graph is deprecated and will be removed in a future version. Use torch._dynamo.nonstrict_trace instead.\n"}
+,{"stream_name":"stderr","time":697.968295547,"data":"  @torch._dynamo.allow_in_graph\n"}
+,{"stream_name":"stderr","time":697.968297077,"data":"/usr/local/lib/python3.12/dist-packages/torchao/float8/float8_scaling_utils.py:90: FutureWarning: torch._dynamo.allow_in_graph is deprecated and will be removed in a future version. Use torch._dynamo.nonstrict_trace instead.\n"}
+,{"stream_name":"stderr","time":697.968298897,"data":"  @torch._dynamo.allow_in_graph\n"}
+,{"stream_name":"stderr","time":697.968300327,"data":"/usr/local/lib/python3.12/dist-packages/torchao/float8/float8_linear.py:60: FutureWarning: torch._dynamo.allow_in_graph is deprecated and will be removed in a future version. Use torch._dynamo.nonstrict_trace instead.\n"}
+,{"stream_name":"stderr","time":697.968307787,"data":"  @torch._dynamo.allow_in_graph\n"}
+,{"stream_name":"stderr","time":697.968309037,"data":"/usr/local/lib/python3.12/dist-packages/torchao/dtypes/nf4tensor.py:1059: FutureWarning: torch._dynamo.allow_in_graph is deprecated and will be removed in a future version. Use torch._dynamo.nonstrict_trace instead.\n"}
+,{"stream_name":"stderr","time":697.968310347,"data":"  @torch._dynamo.allow_in_graph\n"}
+,{"stream_name":"stderr","time":697.968311447,"data":"/usr/local/lib/python3.12/dist-packages/torchao/quantization/subclass.py:206: FutureWarning: torch._dynamo.allow_in_graph is deprecated and will be removed in a future version. Use torch._dynamo.nonstrict_trace instead.\n"}
+,{"stream_name":"stderr","time":697.968312797,"data":"  @torch._dynamo.allow_in_graph\n"}
+,{"stream_name":"stderr","time":697.968313877,"data":"/usr/local/lib/python3.12/dist-packages/torchao/quantization/subclass.py:355: FutureWarning: torch._dynamo.allow_in_graph is deprecated and will be removed in a future version. Use torch._dynamo.nonstrict_trace instead.\n"}
+,{"stream_name":"stderr","time":697.968316627,"data":"  @torch._dynamo.allow_in_graph\n"}
+,{"stream_name":"stderr","time":697.968317707,"data":"/usr/local/lib/python3.12/dist-packages/torchao/quantization/subclass.py:392: FutureWarning: torch._dynamo.allow_in_graph is deprecated and will be removed in a future version. Use torch._dynamo.nonstrict_trace instead.\n"}
+,{"stream_name":"stderr","time":697.968319007,"data":"  @torch._dynamo.allow_in_graph\n"}
+,{"stream_name":"stderr","time":697.968320107,"data":"\n"}
+,{"stream_name":"stderr","time":697.968321887,"data":"/usr/local/lib/python3.12/dist-packages/torchao/float8/float8_tensor.py:122: FutureWarning: torch._dynamo.allow_in_graph is deprecated and will be removed in a future version. Use torch._dynamo.nonstrict_trace instead.\n"}
+,{"stream_name":"stderr","time":697.968323137,"data":"  @torch._dynamo.allow_in_graph\n"}
+,{"stream_name":"stderr","time":697.968324237,"data":"/usr/local/lib/python3.12/dist-packages/torchao/float8/float8_tensor.py:195: FutureWarning: torch._dynamo.allow_in_graph is deprecated and will be removed in a future version. Use torch._dynamo.nonstrict_trace instead.\n"}
+,{"stream_name":"stderr","time":697.968325437,"data":"  @torch._dynamo.allow_in_graph\n"}
+,{"stream_name":"stderr","time":697.968326567,"data":"/usr/local/lib/python3.12/dist-packages/torchao/float8/float8_scaling_utils.py:90: FutureWarning: torch._dynamo.allow_in_graph is deprecated and will be removed in a future version. Use torch._dynamo.nonstrict_trace instead.\n"}
+,{"stream_name":"stderr","time":697.968327797,"data":"  @torch._dynamo.allow_in_graph\n"}
+,{"stream_name":"stderr","time":697.968328807,"data":"/usr/local/lib/python3.12/dist-packages/torchao/float8/float8_linear.py:60: FutureWarning: torch._dynamo.allow_in_graph is deprecated and will be removed in a future version. Use torch._dynamo.nonstrict_trace instead.\n"}
+,{"stream_name":"stderr","time":697.968330007,"data":"  @torch._dynamo.allow_in_graph\n"}
+,{"stream_name":"stderr","time":697.968331007,"data":"/usr/local/lib/python3.12/dist-packages/torchao/dtypes/nf4tensor.py:1059: FutureWarning: torch._dynamo.allow_in_graph is deprecated and will be removed in a future version. Use torch._dynamo.nonstrict_trace instead.\n"}
+,{"stream_name":"stderr","time":697.968332207,"data":"  @torch._dynamo.allow_in_graph\n"}
+,{"stream_name":"stderr","time":697.968333187,"data":"/usr/local/lib/python3.12/dist-packages/torchao/quantization/subclass.py:206: FutureWarning: torch._dynamo.allow_in_graph is deprecated and will be removed in a future version. Use torch._dynamo.nonstrict_trace instead.\n"}
+,{"stream_name":"stderr","time":697.968334397,"data":"  @torch._dynamo.allow_in_graph\n"}
+,{"stream_name":"stderr","time":697.968336697,"data":"/usr/local/lib/python3.12/dist-packages/torchao/quantization/subclass.py:355: FutureWarning: torch._dynamo.allow_in_graph is deprecated and will be removed in a future version. Use torch._dynamo.nonstrict_trace instead.\n"}
+,{"stream_name":"stderr","time":697.968337947,"data":"  @torch._dynamo.allow_in_graph\n"}
+,{"stream_name":"stderr","time":697.968339047,"data":"/usr/local/lib/python3.12/dist-packages/torchao/quantization/subclass.py:392: FutureWarning: torch._dynamo.allow_in_graph is deprecated and will be removed in a future version. Use torch._dynamo.nonstrict_trace instead.\n"}
+,{"stream_name":"stderr","time":697.968340307,"data":"  @torch._dynamo.allow_in_graph\n"}
+,{"stream_name":"stderr","time":705.373556745,"data":"warmup_ratio is deprecated and will be removed in v5.2. Use `warmup_steps` instead.\n"}
+,{"stream_name":"stderr","time":705.373588605,"data":"\n"}
+,{"stream_name":"stderr","time":705.373590565,"data":"warmup_ratio is deprecated and will be removed in v5.2. Use `warmup_steps` instead.\n"}
+,{"stream_name":"stdout","time":705.577503705,"data":"trainable params: 883,873,792 || all params: 32,461,811,136 || trainable%: 2.7228\n"}
+,{"stream_name":"stderr","time":707.222470436,"data":"The tokenizer has new PAD/BOS/EOS tokens that differ from the model config and generation config. The model config and generation config were aligned accordingly, being updated with the tokenizer's values. Updated tokens: {'eos_token_id': 11, 'pad_token_id': 11}.\n"}
+,{"stream_name":"stderr","time":707.222486976,"data":"\n"}
+,{"stream_name":"stderr","time":707.222488716,"data":"The tokenizer has new PAD/BOS/EOS tokens that differ from the model config and generation config. The model config and generation config were aligned accordingly, being updated with the tokenizer's values. Updated tokens: {'eos_token_id': 11, 'pad_token_id': 11}.\n"}
+,{"stream_name":"stdout","time":707.222736356,"data":"Starting training...\n"}
+,{"stream_name":"stdout","time":12091.268363908,"data":"Adapter saved to /kaggle/working/adapter:\n"}
+,{"stream_name":"stdout","time":12091.268387538,"data":"  adapter_config.json (1.1 KB)\n"}
+,{"stream_name":"stdout","time":12091.268389448,"data":"  chat_template.jinja (10.3 KB)\n"}
+,{"stream_name":"stdout","time":12091.268390828,"data":"  tokenizer.json (16677.2 KB)\n"}
+,{"stream_name":"stdout","time":12091.268392228,"data":"  README.md (5.2 KB)\n"}
+,{"stream_name":"stdout","time":12091.268393558,"data":"  tokenizer_config.json (0.4 KB)\n"}
+,{"stream_name":"stdout","time":12091.268394838,"data":"  adapter_model.safetensors (3454393.7 KB)\n"}
+,{"stream_name":"stdout","time":12091.468416889,"data":"Packaging files from /kaggle/working/adapter...\n"}
+,{"stream_name":"stdout","time":12201.702369853,"data":"Created /kaggle/working/submission.zip (3106.9 MB)\n"}
+,{"stream_name":"stdout","time":12201.702390373,"data":"Zip Contents: ['adapter_config.json', 'chat_template.jinja', 'tokenizer.json', 'README.md', 'tokenizer_config.json', 'adapter_model.safetensors']\n"}
+,{"stream_name":"stdout","time":12201.702392533,"data":"✅ submission.zip is ready! You can now submit this file to the competition.\n"}
+,{"stream_name":"stderr","time":12206.412363461,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":12206.412382761,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":12206.547985144,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":12206.547998194,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":12207.165463637,"data":"/usr/local/lib/python3.12/dist-packages/traitlets/traitlets.py:2915: FutureWarning: --Exporter.preprocessors=[\"remove_papermill_header.RemovePapermillHeader\"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.\n"}
+,{"stream_name":"stderr","time":12207.165477207,"data":"  warn(\n"}
+,{"stream_name":"stderr","time":12207.210620204,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":12207.355647942,"data":"[NbConvertApp] Writing 91403 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":12208.811935818,"data":"/usr/local/lib/python3.12/dist-packages/traitlets/traitlets.py:2915: FutureWarning: --Exporter.preprocessors=[\"nbconvert.preprocessors.ExtractOutputPreprocessor\"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.\n"}
+,{"stream_name":"stderr","time":12208.811957888,"data":"  warn(\n"}
+,{"stream_name":"stderr","time":12208.841871433,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":12209.308462511,"data":"[NbConvertApp] Writing 376926 bytes to __results__.html\n"}
+]

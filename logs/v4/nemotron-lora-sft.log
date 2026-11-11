@@ -1,0 +1,113 @@
+[{"stream_name":"stderr","time":6.571728182,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":6.571749832,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":6.571751802,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":6.571752932,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":7.00298896,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":7.00301069,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":7.00301238,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":7.00301371,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":91.820938195,"data":"/kaggle/usr/lib/notebooks/ryanholbrook/nvidia_utility_script/torch/compiler/__init__.py:148: FutureWarning: torch._dynamo.allow_in_graph is deprecated and will be removed in a future version. Use torch._dynamo.nonstrict_trace instead.\n"}
+,{"stream_name":"stderr","time":91.820961095,"data":"  return torch._dynamo.allow_in_graph(fn)\n"}
+,{"stream_name":"stderr","time":91.820962985,"data":"\n"}
+,{"stream_name":"stderr","time":91.820964325,"data":"/kaggle/usr/lib/notebooks/ryanholbrook/nvidia_utility_script/torch/compiler/__init__.py:148: FutureWarning: torch._dynamo.allow_in_graph is deprecated and will be removed in a future version. Use torch._dynamo.nonstrict_trace instead.\n"}
+,{"stream_name":"stderr","time":91.820965855,"data":"  return torch._dynamo.allow_in_graph(fn)\n"}
+,{"stream_name":"stdout","time":92.87830136,"data":"CUDA: True\n"}
+,{"stream_name":"stdout","time":92.87834561,"data":"GPU: NVIDIA RTX PRO 6000 Blackwell Server Edition\n"}
+,{"stream_name":"stdout","time":92.87834956,"data":"VRAM: 102.0 GB\n"}
+,{"stream_name":"stdout","time":93.136744779,"data":"=== /kaggle/input contents ===\n"}
+,{"stream_name":"stdout","time":93.136758609,"data":"  competitions\n"}
+,{"stream_name":"stdout","time":93.136760609,"data":"  models\n"}
+,{"stream_name":"stdout","time":93.136761949,"data":"train.csv found at: ['/kaggle/input/competitions/nvidia-nemotron-model-reasoning-challenge/train.csv']\n"}
+,{"stream_name":"stdout","time":93.136763329,"data":"Using DATA_DIR: /kaggle/input/competitions/nvidia-nemotron-model-reasoning-challenge\n"}
+,{"stream_name":"stdout","time":93.216454899,"data":"Train: 9500 rows\n"}
+,{"stream_name":"stdout","time":94.100788344,"data":"Loading tokenizer...\n"}
+,{"stream_name":"stdout","time":95.387535818,"data":"Tokenized 9500 examples\n"}
+,{"stream_name":"stderr","time":95.403704518,"data":"`torch_dtype` is deprecated! Use `dtype` instead!\n"}
+,{"stream_name":"stderr","time":95.403714258,"data":"\n"}
+,{"stream_name":"stderr","time":95.403716288,"data":"`torch_dtype` is deprecated! Use `dtype` instead!\n"}
+,{"stream_name":"stdout","time":95.588440767,"data":"Loading model...\n"}
+,{"stream_name":"stderr","time":107.713536348,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":107.713550088,"data":"  File \"\u003cstring\u003e\", line 1, in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":107.713552638,"data":"  File \"/usr/local/lib/python3.12/dist-packages/papermill/execute.py\", line 131, in execute_notebook\n"}
+,{"stream_name":"stderr","time":107.713607078,"data":"    raise_for_execution_errors(nb, output_path)\n"}
+,{"stream_name":"stderr","time":107.713627738,"data":"  File \"/usr/local/lib/python3.12/dist-packages/papermill/execute.py\", line 251, in raise_for_execution_errors\n"}
+,{"stream_name":"stderr","time":107.713646968,"data":"    raise error\n"}
+,{"stream_name":"stderr","time":107.713842328,"data":"papermill.exceptions.PapermillExecutionError: \n"}
+,{"stream_name":"stderr","time":107.713848218,"data":"---------------------------------------------------------------------------\n"}
+,{"stream_name":"stderr","time":107.713849698,"data":"Exception encountered at \"In [7]\":\n"}
+,{"stream_name":"stderr","time":107.713850738,"data":"---------------------------------------------------------------------------\n"}
+,{"stream_name":"stderr","time":107.713851618,"data":"ModuleNotFoundError                       Traceback (most recent call last)\n"}
+,{"stream_name":"stderr","time":107.713852438,"data":"/tmp/ipykernel_65/171749700.py in \u003ccell line: 0\u003e()\n"}
+,{"stream_name":"stderr","time":107.713853388,"data":"      1 print('Loading model...')\n"}
+,{"stream_name":"stderr","time":107.713854198,"data":"----\u003e 2 model = AutoModelForCausalLM.from_pretrained(\n"}
+,{"stream_name":"stderr","time":107.713855268,"data":"      3     MODEL_PATH,\n"}
+,{"stream_name":"stderr","time":107.713856128,"data":"      4     device_map='auto',\n"}
+,{"stream_name":"stderr","time":107.713857008,"data":"      5     trust_remote_code=True,\n"}
+,{"stream_name":"stderr","time":107.713857838,"data":"\n"}
+,{"stream_name":"stderr","time":107.713858628,"data":"/kaggle/usr/lib/notebooks/ryanholbrook/nvidia_utility_script/transformers/models/auto/auto_factory.py in from_pretrained(cls, pretrained_model_name_or_path, *model_args, **kwargs)\n"}
+,{"stream_name":"stderr","time":107.713859608,"data":"    354 \n"}
+,{"stream_name":"stderr","time":107.713860378,"data":"    355         if has_remote_code and trust_remote_code:\n"}
+,{"stream_name":"stderr","time":107.713861188,"data":"--\u003e 356             model_class = get_class_from_dynamic_module(\n"}
+,{"stream_name":"stderr","time":107.713862068,"data":"    357                 class_ref, pretrained_model_name_or_path, code_revision=code_revision, **hub_kwargs, **kwargs\n"}
+,{"stream_name":"stderr","time":107.713862998,"data":"    358             )\n"}
+,{"stream_name":"stderr","time":107.713863768,"data":"\n"}
+,{"stream_name":"stderr","time":107.713864628,"data":"/kaggle/usr/lib/notebooks/ryanholbrook/nvidia_utility_script/transformers/dynamic_module_utils.py in get_class_from_dynamic_module(class_reference, pretrained_model_name_or_path, cache_dir, force_download, proxies, token, revision, local_files_only, repo_type, code_revision, **kwargs)\n"}
+,{"stream_name":"stderr","time":107.713866208,"data":"    581         repo_type=repo_type,\n"}
+,{"stream_name":"stderr","time":107.713867058,"data":"    582     )\n"}
+,{"stream_name":"stderr","time":107.713867828,"data":"--\u003e 583     return get_class_in_module(class_name, final_module, force_reload=force_download)\n"}
+,{"stream_name":"stderr","time":107.713868688,"data":"    584 \n"}
+,{"stream_name":"stderr","time":107.713869468,"data":"    585 \n"}
+,{"stream_name":"stderr","time":107.713870198,"data":"\n"}
+,{"stream_name":"stderr","time":107.713870968,"data":"/kaggle/usr/lib/notebooks/ryanholbrook/nvidia_utility_script/transformers/dynamic_module_utils.py in get_class_in_module(class_name, module_path, force_reload)\n"}
+,{"stream_name":"stderr","time":107.713871878,"data":"    307         # reload in both cases, unless the module is already imported and the hash hits\n"}
+,{"stream_name":"stderr","time":107.713872698,"data":"    308         if getattr(module, \"__transformers_module_hash__\", \"\") != module_hash:\n"}
+,{"stream_name":"stderr","time":107.713881588,"data":"--\u003e 309             module_spec.loader.exec_module(module)\n"}
+,{"stream_name":"stderr","time":107.713882628,"data":"    310             module.__transformers_module_hash__ = module_hash\n"}
+,{"stream_name":"stderr","time":107.713883478,"data":"    311         return getattr(module, class_name)\n"}
+,{"stream_name":"stderr","time":107.713885298,"data":"\n"}
+,{"stream_name":"stderr","time":107.713886398,"data":"/usr/lib/python3.12/importlib/_bootstrap_external.py in exec_module(self, module)\n"}
+,{"stream_name":"stderr","time":107.713887328,"data":"\n"}
+,{"stream_name":"stderr","time":107.713888138,"data":"/usr/lib/python3.12/importlib/_bootstrap.py in _call_with_frames_removed(f, *args, **kwds)\n"}
+,{"stream_name":"stderr","time":107.713889028,"data":"\n"}
+,{"stream_name":"stderr","time":107.713889788,"data":"~/.cache/huggingface/modules/transformers_modules/_1/modeling_nemotron_h.py in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":107.713890718,"data":"     55 # For Mamba2 components Mamba2-\u003eNemotronHMamba2\n"}
+,{"stream_name":"stderr","time":107.713891588,"data":"     56 if is_mamba_2_ssm_available():\n"}
+,{"stream_name":"stderr","time":107.713892388,"data":"---\u003e 57     from mamba_ssm.ops.triton.selective_state_update import selective_state_update\n"}
+,{"stream_name":"stderr","time":107.713893258,"data":"     58     from mamba_ssm.ops.triton.ssd_combined import mamba_chunk_scan_combined, mamba_split_conv1d_scan_combined\n"}
+,{"stream_name":"stderr","time":107.713894118,"data":"     59 else:\n"}
+,{"stream_name":"stderr","time":107.713894878,"data":"\n"}
+,{"stream_name":"stderr","time":107.713895598,"data":"/kaggle/usr/lib/notebooks/ryanholbrook/nvidia_utility_script/mamba_ssm/__init__.py in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":107.713896458,"data":"      4 from mamba_ssm.modules.mamba_simple import Mamba\n"}
+,{"stream_name":"stderr","time":107.713897248,"data":"      5 from mamba_ssm.modules.mamba2 import Mamba2\n"}
+,{"stream_name":"stderr","time":107.713898018,"data":"----\u003e 6 from mamba_ssm.modules.mamba3 import Mamba3\n"}
+,{"stream_name":"stderr","time":107.713898848,"data":"      7 from mamba_ssm.models.mixer_seq_simple import MambaLMHeadModel\n"}
+,{"stream_name":"stderr","time":107.713899638,"data":"\n"}
+,{"stream_name":"stderr","time":107.713900368,"data":"/kaggle/usr/lib/notebooks/ryanholbrook/nvidia_utility_script/mamba_ssm/modules/mamba3.py in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":107.713901228,"data":"     16 from mamba_ssm.ops.triton.mamba3.mamba3_mimo_rotary_step import apply_rotary_qk_inference_fwd\n"}
+,{"stream_name":"stderr","time":107.713902068,"data":"     17 \n"}
+,{"stream_name":"stderr","time":107.713902778,"data":"---\u003e 18 from mamba_ssm.ops.cute.mamba3.mamba3_step_fn import mamba3_step_fn\n"}
+,{"stream_name":"stderr","time":107.713903608,"data":"     19 \n"}
+,{"stream_name":"stderr","time":107.713904338,"data":"     20 class Mamba3(nn.Module):\n"}
+,{"stream_name":"stderr","time":107.713905128,"data":"\n"}
+,{"stream_name":"stderr","time":107.713905868,"data":"/kaggle/usr/lib/notebooks/ryanholbrook/nvidia_utility_script/mamba_ssm/ops/cute/mamba3/mamba3_step_fn.py in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":107.713906738,"data":"     12 import cuda.bindings.driver as cuda\n"}
+,{"stream_name":"stderr","time":107.713907518,"data":"     13 \n"}
+,{"stream_name":"stderr","time":107.713908258,"data":"---\u003e 14 import cutlass\n"}
+,{"stream_name":"stderr","time":107.713909058,"data":"     15 import cutlass.cute as cute\n"}
+,{"stream_name":"stderr","time":107.713910888,"data":"     16 from cutlass import Int32, Float32, Float16, BFloat16, Boolean, const_expr\n"}
+,{"stream_name":"stderr","time":107.713911758,"data":"\n"}
+,{"stream_name":"stderr","time":107.71391250799999,"data":"ModuleNotFoundError: No module named 'cutlass'\n"}
+,{"stream_name":"stderr","time":107.713913348,"data":"\n"}
+,{"stream_name":"stderr","time":108.954122952,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":108.954140832,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":109.101883311,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":109.101887011,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":110.254401666,"data":"/usr/local/lib/python3.12/dist-packages/traitlets/traitlets.py:2915: FutureWarning: --Exporter.preprocessors=[\"remove_papermill_header.RemovePapermillHeader\"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.\n"}
+,{"stream_name":"stderr","time":110.254409886,"data":"  warn(\n"}
+,{"stream_name":"stderr","time":110.309775335,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":110.449303105,"data":"[NbConvertApp] Writing 38872 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":112.389461805,"data":"/usr/local/lib/python3.12/dist-packages/traitlets/traitlets.py:2915: FutureWarning: --Exporter.preprocessors=[\"nbconvert.preprocessors.ExtractOutputPreprocessor\"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.\n"}
+,{"stream_name":"stderr","time":112.389480315,"data":"  warn(\n"}
+,{"stream_name":"stderr","time":112.423347715,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":112.943884072,"data":"[NbConvertApp] Writing 332351 bytes to __results__.html\n"}
+]

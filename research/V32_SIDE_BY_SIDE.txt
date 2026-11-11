@@ -1,0 +1,208 @@
+# v32 vs dgxchen baseline — cryptarithm CoT side-by-side
+
+Total dgxchen cryptarithm rows: 781
+Total v32 generated rows (correct CoT): 656 (84% coverage)
+Remaining dgxchen rows kept as-is: 11
+
+================================================================================
+
+
+## ID: ed61a9d6  (gold answer: !""!)
+
+### dgxchen baseline (current, taught WRONG):
+```
+nput: 【!】【"】【+】【"】【!】
+  left:【!】【"】
+  operator:【+】
+  right:【"】【!】
+
+The question operator is 【+】, which is concatenation.
+
+  concatenation(【!】【"】, 【"】【!】) = 【!】【"】【"】【!】
+  output: 【!""!】-> 【{!""!}】
+
+I will now return the answer in \boxed{}
+The answer in \boxed{–} is \boxed{!""!}
+</think>
+\boxed{!""!}
+```
+
+### v32 ours (taught CORRECT):
+```
+】【^】 mismatch
+
+【}!+}^】 = 【}!}^】
+  input: 【}】【!】【+】【}】【^】
+  left:【}】【!】
+  operator: 【+】
+  right:【}】【^】
+  output: 【}】【!】【}】【^】
+  concatenation: 【}】【!】【}】【^】 match
+  reverse concatenation: 【}】【^】【}】【!】 mismatch
+
+Question 【!"+"!】 → applying concatenation → 【!""!】
+
+The answer in \boxed{–} is \boxed{!""!}
+```
+
+--------------------------------------------------------------------------------
+
+## ID: d72d8c1c  (gold answer: &@&%)
+
+### dgxchen baseline (current, taught WRONG):
+```
+nput: 【&】【@】【`】【&】【%】
+  left:【&】【@】
+  operator:【`】
+  right:【&】【%】
+
+The question operator is 【`】, which is concatenation.
+
+  concatenation(【&】【@】, 【&】【%】) = 【&】【@】【&】【%】
+  output: 【&@&%】-> 【{&@&%}】
+
+I will now return the answer in \boxed{}
+The answer in \boxed{–} is \boxed{&@&%}
+</think>
+\boxed{&@&%}
+```
+
+### v32 ours (taught CORRECT):
+```
+】【'】 mismatch
+
+【%\`!%】 = 【%\!%】
+  input: 【%】【\】【`】【!】【%】
+  left:【%】【\】
+  operator: 【`】
+  right:【!】【%】
+  output: 【%】【\】【!】【%】
+  concatenation: 【%】【\】【!】【%】 match
+  reverse concatenation: 【!】【%】【%】【\】 mismatch
+
+Question 【&@`&%】 → applying concatenation → 【&@&%】
+
+The answer in \boxed{–} is \boxed{&@&%}
+```
+
+--------------------------------------------------------------------------------
+
+## ID: d0b1e41a  (gold answer: #{"!)
+
+### dgxchen baseline (current, taught WRONG):
+```
+nput: 【#】【{】【*】【"】【!】
+  left:【#】【{】
+  operator:【*】
+  right:【"】【!】
+
+The question operator is 【*】, which is concatenation.
+
+  concatenation(【#】【{】, 【"】【!】) = 【#】【{】【"】【!】
+  output: 【#{"!】-> 【{#{"!}】
+
+I will now return the answer in \boxed{}
+The answer in \boxed{–} is \boxed{#{"!}
+</think>
+\boxed{#{"!}
+```
+
+### v32 ours (taught CORRECT):
+```
+】【}】 mismatch
+
+【"$+`@】 = 【"$`@】
+  input: 【"】【$】【+】【`】【@】
+  left:【"】【$】
+  operator: 【+】
+  right:【`】【@】
+  output: 【"】【$】【`】【@】
+  concatenation: 【"】【$】【`】【@】 match
+  reverse concatenation: 【`】【@】【"】【$】 mismatch
+
+Question 【#{*"!】 → applying concatenation → 【#{"!】
+
+The answer in \boxed{–} is \boxed{#{"!}
+```
+
+--------------------------------------------------------------------------------
+
+## ID: d7662688  (gold answer: ]&]])
+
+### dgxchen baseline (current, taught WRONG):
+```
+]】【&】
+  left:【]】【]】
+  operator:【*】
+  right:【]】【&】
+
+The question operator is 【*】, which is reverse concatenation.
+
+  reverse concatenation(【]】【]】, 【]】【&】) = 【]】【&】【]】【]】
+  output: 【]&]]】-> 【{]&]]}】
+
+I will now return the answer in \boxed{}
+The answer in \boxed{–} is \boxed{]&]]}
+</think>
+\boxed{]&]]}
+```
+
+### v32 ours (taught CORRECT):
+```
+】【\】 match
+
+【"(+(]】 = 【(&】
+  input: 【"】【(】【+】【(】【]】
+  left:【"】【(】
+  operator: 【+】
+  right:【(】【]】
+  output: 【(】【&】
+  concatenation: 【"】【(】【(】【]】 mismatch
+  reverse concatenation: 【(】【]】【"】【(】 mismatch
+
+Question 【]]*]&】 → applying reverse concatenation → 【]&]]】
+
+The answer in \boxed{–} is \boxed{]&]]}
+```
+
+--------------------------------------------------------------------------------
+
+## ID: d6c03e21  (gold answer: &(`#)
+
+### dgxchen baseline (current, taught WRONG):
+```
+nput: 【&】【(】【+】【`】【#】
+  left:【&】【(】
+  operator:【+】
+  right:【`】【#】
+
+The question operator is 【+】, which is concatenation.
+
+  concatenation(【&】【(】, 【`】【#】) = 【&】【(】【`】【#】
+  output: 【&(`#】-> 【{&(`#}】
+
+I will now return the answer in \boxed{}
+The answer in \boxed{–} is \boxed{&(`#}
+</think>
+\boxed{&(`#}
+```
+
+### v32 ours (taught CORRECT):
+```
+】 mismatch
+
+【':*$$】 = 【#[!&】
+  input: 【'】【:】【*】【$】【$】
+  left:【'】【:】
+  operator: 【*】
+  right:【$】【$】
+  output: 【#】【[】【!】【&】
+  concatenation: 【'】【:】【$】【$】 mismatch
+  reverse concatenation: 【$】【$】【'】【:】 mismatch
+
+Question 【&(+`#】 → applying concatenation → 【&(`#】
+
+The answer in \boxed{–} is \boxed{&(`#}
+```
+
+--------------------------------------------------------------------------------

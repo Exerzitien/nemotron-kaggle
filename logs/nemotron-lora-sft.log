@@ -1,0 +1,48 @@
+[{"stream_name":"stderr","time":5.942628277,"data":"/usr/local/lib/python3.12/dist-packages/nbformat/__init__.py:96: MissingIDFieldWarning: Cell is missing an id field, this will become a hard error in future nbformat versions. You may want to use `normalize()` on your notebooks before validations (available since nbformat 5.1.4). Previous versions of nbformat are fixing this issue transparently, and will stop doing so in the future.\n"}
+,{"stream_name":"stderr","time":5.942660747,"data":"  validate(nb)\n"}
+,{"stream_name":"stderr","time":6.6948367730000005,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":6.694853513,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":6.694855123,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":6.694856673,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":7.140300894,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":7.140323434,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":7.140325144,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":7.140326224,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":90.925675348,"data":"/kaggle/usr/lib/notebooks/ryanholbrook/nvidia_utility_script/torch/compiler/__init__.py:148: FutureWarning: torch._dynamo.allow_in_graph is deprecated and will be removed in a future version. Use torch._dynamo.nonstrict_trace instead.\n"}
+,{"stream_name":"stderr","time":90.925693468,"data":"  return torch._dynamo.allow_in_graph(fn)\n"}
+,{"stream_name":"stderr","time":90.925695528,"data":"\n"}
+,{"stream_name":"stderr","time":90.925696758,"data":"/kaggle/usr/lib/notebooks/ryanholbrook/nvidia_utility_script/torch/compiler/__init__.py:148: FutureWarning: torch._dynamo.allow_in_graph is deprecated and will be removed in a future version. Use torch._dynamo.nonstrict_trace instead.\n"}
+,{"stream_name":"stderr","time":90.925698208,"data":"  return torch._dynamo.allow_in_graph(fn)\n"}
+,{"stream_name":"stderr","time":94.827759631,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":94.827776761,"data":"  File \"\u003cstring\u003e\", line 1, in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":94.827779231,"data":"  File \"/usr/local/lib/python3.12/dist-packages/papermill/execute.py\", line 131, in execute_notebook\n"}
+,{"stream_name":"stderr","time":94.827812871,"data":"    raise_for_execution_errors(nb, output_path)\n"}
+,{"stream_name":"stderr","time":94.827823711,"data":"  File \"/usr/local/lib/python3.12/dist-packages/papermill/execute.py\", line 251, in raise_for_execution_errors\n"}
+,{"stream_name":"stderr","time":94.827860471,"data":"    raise error\n"}
+,{"stream_name":"stderr","time":94.827968651,"data":"papermill.exceptions.PapermillExecutionError: \n"}
+,{"stream_name":"stderr","time":94.827972061,"data":"---------------------------------------------------------------------------\n"}
+,{"stream_name":"stderr","time":94.827973471,"data":"Exception encountered at \"In [1]\":\n"}
+,{"stream_name":"stderr","time":94.827974741,"data":"---------------------------------------------------------------------------\n"}
+,{"stream_name":"stderr","time":94.827975891,"data":"ModuleNotFoundError                       Traceback (most recent call last)\n"}
+,{"stream_name":"stderr","time":94.827977081,"data":"/tmp/ipykernel_65/2501279973.py in \u003ccell line: 0\u003e()\n"}
+,{"stream_name":"stderr","time":94.827983711,"data":"      8 from transformers import AutoModelForCausalLM, AutoTokenizer, TrainingArguments\n"}
+,{"stream_name":"stderr","time":94.827984891,"data":"      9 from peft import LoraConfig, get_peft_model, TaskType\n"}
+,{"stream_name":"stderr","time":94.827985721,"data":"---\u003e 10 from trl import SFTTrainer, DataCollatorForCompletionOnlyLM\n"}
+,{"stream_name":"stderr","time":94.827986691,"data":"     11 from datasets import Dataset\n"}
+,{"stream_name":"stderr","time":94.827987531,"data":"     12 \n"}
+,{"stream_name":"stderr","time":94.827988421,"data":"\n"}
+,{"stream_name":"stderr","time":94.827989181,"data":"ModuleNotFoundError: No module named 'trl'\n"}
+,{"stream_name":"stderr","time":94.827990011,"data":"\n"}
+,{"stream_name":"stderr","time":96.083691558,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":96.083709568,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":96.228171588,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":96.228179098,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":97.262263996,"data":"/usr/local/lib/python3.12/dist-packages/traitlets/traitlets.py:2915: FutureWarning: --Exporter.preprocessors=[\"remove_papermill_header.RemovePapermillHeader\"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.\n"}
+,{"stream_name":"stderr","time":97.262272846,"data":"  warn(\n"}
+,{"stream_name":"stderr","time":97.306259096,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":97.442203136,"data":"[NbConvertApp] Writing 14537 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":99.368623552,"data":"/usr/local/lib/python3.12/dist-packages/traitlets/traitlets.py:2915: FutureWarning: --Exporter.preprocessors=[\"nbconvert.preprocessors.ExtractOutputPreprocessor\"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.\n"}
+,{"stream_name":"stderr","time":99.368641812,"data":"  warn(\n"}
+,{"stream_name":"stderr","time":99.403959782,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":99.906313131,"data":"[NbConvertApp] Writing 307564 bytes to __results__.html\n"}
+]

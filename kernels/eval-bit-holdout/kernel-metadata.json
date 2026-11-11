@@ -1,0 +1,29 @@
+{
+  "id": "exerzitien/nemotron-eval-bit-holdout",
+  "title": "Nemotron Eval Bit Holdout",
+  "code_file": "nemotron-eval-bit-holdout.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": false,
+  "keywords": ["gpu"],
+  "dataset_sources": [
+    "jiazhuang/nemotron-val-set-950",
+    "exerzitien/nemotron-bit-holdout",
+    "exerzitien/nemotron-v34-adapter"
+  ],
+  "kernel_sources": [
+    "metric/nvidia-metric-utility-script",
+    "ryanholbrook/nvidia-utility-script"
+  ],
+  "competition_sources": [
+    "nvidia-nemotron-model-reasoning-challenge"
+  ],
+  "model_sources": [
+    "metric/nemotron-3-nano-30b-a3b-bf16/Transformers/default/1"
+  ],
+  "docker_image": "gcr.io/kaggle-private-byod/python@sha256:9fa0da194fad2241d3f01a80581cbecbd3a258b4d1b695e2cbbbc62a0fd205ac",
+  "machine_shape": "NvidiaRtxPro6000"
+}

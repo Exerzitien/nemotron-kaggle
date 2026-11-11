@@ -1,0 +1,14 @@
+=== v32 cryptarithm_v3.csv coverage stats ===
+
+Total dgxchen cryptarithm rows to potentially replace: 781
+  cryptarithm_deduce: 627
+  cryptarithm_guess: 154
+
+Generated correct CoT: 656 (84%)
+  cryptarithm_deduce: 541
+  cryptarithm_guess: 115
+
+Fallback to dgxchen CoT: 11 (1%)
+
+Round-trip gate: 100% pass (post-May-8 metric)
+Token length gate: max 537 / budget 8192 (93% headroom)

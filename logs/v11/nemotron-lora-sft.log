@@ -1,0 +1,43 @@
+[{"stream_name":"stderr","time":6.260401953,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":6.260437803,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":6.260439633,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":6.260440823,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":6.7100785179999995,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":6.710101338,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":6.710103008,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":6.710104428,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":8.116564709,"data":"wheels found: ['/kaggle/input/nemotron-packages/causal_conv1d-1.6.1+cu12torch2.10cxx11abiTRUE-cp312-cp312-linux_x86_64.whl'] ['/kaggle/input/nemotron-packages/mamba_ssm-2.3.1+cu12torch2.10cxx11abiTRUE-cp312-cp312-linux_x86_64.whl']\n"}
+,{"stream_name":"stdout","time":18.453635261,"data":"Removed from sys.path: ['/kaggle/usr/lib/notebooks/ryanholbrook/nvidia_utility_script']\n"}
+,{"stream_name":"stderr","time":18.67106536,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":18.67107392,"data":"  File \"\u003cstring\u003e\", line 1, in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":18.67107621,"data":"  File \"/usr/local/lib/python3.12/dist-packages/papermill/execute.py\", line 131, in execute_notebook\n"}
+,{"stream_name":"stderr","time":18.67110505,"data":"    raise_for_execution_errors(nb, output_path)\n"}
+,{"stream_name":"stderr","time":18.67113356,"data":"  File \"/usr/local/lib/python3.12/dist-packages/papermill/execute.py\", line 251, in raise_for_execution_errors\n"}
+,{"stream_name":"stderr","time":18.67115952,"data":"    raise error\n"}
+,{"stream_name":"stderr","time":18.67126773,"data":"papermill.exceptions.PapermillExecutionError: \n"}
+,{"stream_name":"stderr","time":18.67126943,"data":"---------------------------------------------------------------------------\n"}
+,{"stream_name":"stderr","time":18.67127076,"data":"Exception encountered at \"In [1]\":\n"}
+,{"stream_name":"stderr","time":18.67127201,"data":"---------------------------------------------------------------------------\n"}
+,{"stream_name":"stderr","time":18.67127326,"data":"ModuleNotFoundError                       Traceback (most recent call last)\n"}
+,{"stream_name":"stderr","time":18.67127438,"data":"/tmp/ipykernel_65/2752634416.py in \u003ccell line: 0\u003e()\n"}
+,{"stream_name":"stderr","time":18.6712756,"data":"     14 print('Removed from sys.path:', removed)\n"}
+,{"stream_name":"stderr","time":18.67127678,"data":"     15 \n"}
+,{"stream_name":"stderr","time":18.67127783,"data":"---\u003e 16 import mamba_ssm; print(f'mamba_ssm {mamba_ssm.__version__} from {mamba_ssm.__file__}')\n"}
+,{"stream_name":"stderr","time":18.6712791,"data":"     17 \n"}
+,{"stream_name":"stderr","time":18.67128012,"data":"     18 # Restore paths for transformers/triton (append, not insert)\n"}
+,{"stream_name":"stderr","time":18.67128127,"data":"\n"}
+,{"stream_name":"stderr","time":18.67128232,"data":"ModuleNotFoundError: No module named 'mamba_ssm'\n"}
+,{"stream_name":"stderr","time":18.67128339,"data":"\n"}
+,{"stream_name":"stderr","time":19.948959786,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":19.948984416000002,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":20.070410284,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":20.070423264,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":20.595308451,"data":"/usr/local/lib/python3.12/dist-packages/traitlets/traitlets.py:2915: FutureWarning: --Exporter.preprocessors=[\"remove_papermill_header.RemovePapermillHeader\"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.\n"}
+,{"stream_name":"stderr","time":20.595316741,"data":"  warn(\n"}
+,{"stream_name":"stderr","time":20.622853053,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":20.757402412,"data":"[NbConvertApp] Writing 13798 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":22.243543466,"data":"/usr/local/lib/python3.12/dist-packages/traitlets/traitlets.py:2915: FutureWarning: --Exporter.preprocessors=[\"nbconvert.preprocessors.ExtractOutputPreprocessor\"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.\n"}
+,{"stream_name":"stderr","time":22.243570766,"data":"  warn(\n"}
+,{"stream_name":"stderr","time":22.263425407,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":22.725507619,"data":"[NbConvertApp] Writing 312929 bytes to __results__.html\n"}
+]

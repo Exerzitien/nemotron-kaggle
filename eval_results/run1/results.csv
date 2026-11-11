@@ -1,0 +1,10 @@
+,correct,total,weightage,percentage,contribution
+bit_manipulation,68,120,13.5%,56.7%,7.6%
+cryptarithm_deduce,0,120,13.5%,0.0%,0.0%
+cryptarithm_guess,0,120,13.5%,0.0%,0.0%
+equation_numeric_deduce,3,56,6.3%,5.4%,0.3%
+equation_numeric_guess,2,115,12.9%,1.7%,0.2%
+gravity,120,120,13.5%,100.0%,13.5%
+numeral,120,120,13.5%,100.0%,13.5%
+unit_conversion,120,120,13.5%,100.0%,13.5%
+TOTAL,433,891,100.0%,48.6%,48.6%

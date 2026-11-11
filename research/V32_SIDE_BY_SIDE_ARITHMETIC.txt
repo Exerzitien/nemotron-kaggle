@@ -1,0 +1,591 @@
+# v32 vs dgxchen baseline — ARITHMETIC cryptarithm cases
+# These are the cases where dgxchen (using huikang reasoner) teaches the model
+# the WRONG answer "default to concatenation", and v32 teaches the right answer.
+
+================================================================================
+
+## ID: 00c032a8
+Gold answer: \^?
+huikang (current training) answer: ))\)
+v32 ours answer: \^?
+
+### CURRENT (huikang) trains model to output WRONG answer:
+```
+We need to infer the transformation rule from the examples.
+I will put my final answer inside \boxed{}.
+
+【}`]?(】 = 【())】
+  input: 【}】【`】【]】【?】【(】
+  left:【}】【`】
+  operator: 【]】
+  right:【?】【(】
+  output: 【(】【)】【)】
+  concatenation: 【}】【`】【?】【(】 mismatch
+  reverse concatenation: 【?】【(】【}】【`】 mismatch
+  operator: 【]】unknown
+
+【}#<)\】 = 【#?】
+  input: 【}】【#】【<】【)】【\】
+  left:【}】【#】
+  operator: 【<】
+  right:【)】【\】
+  output: 【#】【?】
+  concatenation: 【}】【#】【)】【\】 mismatch
+  reverse concatenation: 【)】【\】【}】【#】 mismatch
+  operator: 【<】unknown
+
+【?(!&&】 = 【#@@#】
+  input: 【?】【(】【!】【&】【&】
+  left:【?】【(】
+  operator: 【!】
+  right:【&】【&】
+  output: 【#】【@】【@】【#】
+  concatenation: 【?】【(】【&】【&】 mismatch
+  reverse concatenation: 【&】【&】【?】【(】 mismatch
+  operator: 【!】unknown
+
+【(?!@`】 = 【)#))】
+  input: 【(】【?】【!】【@】【`】
+  left:【(】【?】
+  operator: 【!】
+  right:【@】【`】
+  output: 【)】【#】【)】【)】
+  concatenation: 【(】【?】【@】【`】 mismatch
+  reverse concatenation: 【@】【`】【(】【?】 mismatch
+  operator: 【!】unknown
+
+Question【))!\)】
+  input: 【)】【)】【!】【\】【)】
+  left:【)】【)】
+  operator:【!】
+  right:【\】【)】
+
+The question operator is 【!】, which is unknown.
+As the question operator is unknown, we default to concatenation.
+
+  concatenation(【)】【)】, 【\】【)】) = 【)】【)】【\】【)】
+  output: 【))\)】-> 【{))\)}】
+
+I will now return the answer in \boxed{}
+The answer in \boxed{–} is \boxed{))\)}
+```
+
+### v32 OURS trains model to output CORRECT answer:
+```
+We need to infer the transformation rule from the examples.
+I will put my final answer inside \boxed{}.
+
+This puzzle is a digit-substitution cipher with little-endian digit order.
+Each symbol stands for a digit 0-9. The operators are arithmetic.
+
+Digit mapping: ^=0, )=1, ?=2, @=3, `=4, }=5, #=6, (=7, &=8, \=9.
+Operator semantics: 【!】 = a * b; 【]】 = a + b; 【<】 = |a - b|.
+
+Verify each example:
+
+【}`]?(】 = 【())】
+  left: 【}`】 = 45
+  right: 【?(】 = 72
+  op 【]】 (a + b): 117
+  encode 117 as symbols: 【())】  match
+
+【}#<)\】 = 【#?】
+  left: 【}#】 = 65
+  right: 【)\】 = 91
+  op 【<】 (|a - b|): 26
+  encode 26 as symbols: 【#?】  match
+
+【?(!&&】 = 【#@@#】
+  left: 【?(】 = 72
+  right: 【&&】 = 88
+  op 【!】 (a * b): 6336
+  encode 6336 as symbols: 【#@@#】  match
+
+【(?!@`】 = 【)#))】
+  left: 【(?】 = 27
+  right: 【@`】 = 43
+  op 【!】 (a * b): 1161
+  encode 1161 as symbols: 【)#))】  match
+
+Apply to query 【))!\)】:
+  left: 【))】 = 11
+  right: 【\)】 = 19
+  op 【!】 (a * b): 209
+  encode 209 as symbols: 【\^?】
+
+The answer in \boxed{–} is \boxed{\^?}
+```
+
+--------------------------------------------------------------------------------
+
+## ID: 012cab1f
+Gold answer: |@{
+huikang (current training) answer: {`(&
+v32 ours answer: |@{
+
+### CURRENT (huikang) trains model to output WRONG answer:
+```
+We need to infer the transformation rule from the examples.
+I will put my final answer inside \boxed{}.
+
+【`(]&:】 = 【%@#:】
+  input: 【`】【(】【]】【&】【:】
+  left:【`】【(】
+  operator: 【]】
+  right:【&】【:】
+  output: 【%】【@】【#】【:】
+  concatenation: 【`】【(】【&】【:】 mismatch
+  reverse concatenation: 【&】【:】【`】【(】 mismatch
+  operator: 【]】unknown
+
+【&{>`%】 = 【{{】
+  input: 【&】【{】【>】【`】【%】
+  left:【&】【{】
+  operator: 【>】
+  right:【`】【%】
+  output: 【{】【{】
+  concatenation: 【&】【{】【`】【%】 mismatch
+  reverse concatenation: 【`】【%】【&】【{】 mismatch
+  operator: 【>】unknown
+
+【("'%:】 = 【{@{】
+  input: 【(】【"】【'】【%】【:】
+  left:【(】【"】
+  operator: 【'】
+  right:【%】【:】
+  output: 【{】【@】【{】
+  concatenation: 【(】【"】【%】【:】 mismatch
+  reverse concatenation: 【%】【:】【(】【"】 mismatch
+  operator: 【'】unknown
+
+【:%>&:】 = 【:"】
+  input: 【:】【%】【>】【&】【:】
+  left:【:】【%】
+  operator: 【>】
+  right:【&】【:】
+  output: 【:】【"】
+  concatenation: 【:】【%】【&】【:】 mismatch
+  reverse concatenation: 【&】【:】【:】【%】 mismatch
+  operator: 【>】unknown
+
+【`('"@】 = 【%@{】
+  input: 【`】【(】【'】【"】【@】
+  left:【`】【(】
+  operator: 【'】
+  right:【"】【@】
+  output: 【%】【@】【{】
+  concatenation: 【`】【(】【"】【@】 mismatch
+  reverse concatenation: 【"】【@】【`】【(】 mismatch
+  operator: 【'】unknown
+
+Question【{`'(&】
+  input: 【{】【`】【'】【(】【&】
+  left:【{】【`】
+  operator:【'】
+  right:【(】【&】
+
+The question operator is 【'】, which is unknown.
+As the question operator is unknown, we default to concatenation.
+
+  concatenation(【{】【`】, 【(】【&】) = 【{】【`】【(】【&】
+  output: 【{`(&】-> 【{{`(&}】
+
+I will now return the answer in \boxed{}
+The answer in \boxed{–} is \boxed{{`(&}
+```
+
+### v32 OURS trains model to output CORRECT answer:
+```
+We need to infer the transformation rule from the examples.
+I will put my final answer inside \boxed{}.
+
+This puzzle is a digit-substitution cipher with little-endian digit order.
+Each symbol stands for a digit 0-9. The operators are arithmetic.
+
+Digit mapping: |=0, {=1, %=2, #=3, @=4, "=5, &=6, `=7, :=8, (=9.
+Operator semantics: 【'】 = a + b; 【>】 = |a - b|; 【]】 = a * b.
+
+Verify each example:
+
+【`(]&:】 = 【%@#:】
+  left: 【`(】 = 97
+  right: 【&:】 = 86
+  op 【]】 (a * b): 8342
+  encode 8342 as symbols: 【%@#:】  match
+
+【&{>`%】 = 【{{】
+  left: 【&{】 = 16
+  right: 【`%】 = 27
+  op 【>】 (|a - b|): 11
+  encode 11 as symbols: 【{{】  match
+
+【("'%:】 = 【{@{】
+  left: 【("】 = 59
+  right: 【%:】 = 82
+  op 【'】 (a + b): 141
+  encode 141 as symbols: 【{@{】  match
+
+【:%>&:】 = 【:"】
+  left: 【:%】 = 28
+  right: 【&:】 = 86
+  op 【>】 (|a - b|): 58
+  encode 58 as symbols: 【:"】  match
+
+【`('"@】 = 【%@{】
+  left: 【`(】 = 97
+  right: 【"@】 = 45
+  op 【'】 (a + b): 142
+  encode 142 as symbols: 【%@{】  match
+
+Apply to query 【{`'(&】:
+  left: 【{`】 = 71
+  right: 【(&】 = 69
+  op 【'】 (a + b): 140
+  encode 140 as symbols: 【|@{】
+
+The answer in \boxed{–} is \boxed{|@{}
+```
+
+--------------------------------------------------------------------------------
+
+## ID: 017a871e
+Gold answer: \:
+huikang (current training) answer: #!"^
+v32 ours answer: \:
+
+### CURRENT (huikang) trains model to output WRONG answer:
+```
+We need to infer the transformation rule from the examples.
+I will put my final answer inside \boxed{}.
+
+【#]+\#】 = 【"!】
+  input: 【#】【]】【+】【\】【#】
+  left:【#】【]】
+  operator: 【+】
+  right:【\】【#】
+  output: 【"】【!】
+  concatenation: 【#】【]】【\】【#】 mismatch
+  reverse concatenation: 【\】【#】【#】【]】 mismatch
+  operator: 【+】unknown
+
+【#^-{]】 = 【]#】
+  input: 【#】【^】【-】【{】【]】
+  left:【#】【^】
+  operator: 【-】
+  right:【{】【]】
+  output: 【]】【#】
+  concatenation: 【#】【^】【{】【]】 mismatch
+  reverse concatenation: 【{】【]】【#】【^】 mismatch
+  operator: 【-】unknown
+
+【\{*\!】 = 【#\^:】
+  input: 【\】【{】【*】【\】【!】
+  left:【\】【{】
+  operator: 【*】
+  right:【\】【!】
+  output: 【#】【\】【^】【:】
+  concatenation: 【\】【{】【\】【!】 mismatch
+  reverse concatenation: 【\】【!】【\】【{】 mismatch
+  operator: 【*】unknown
+
+Question【#!-"^】
+  input: 【#】【!】【-】【"】【^】
+  left:【#】【!】
+  operator:【-】
+  right:【"】【^】
+
+The question operator is 【-】, which is unknown.
+As the question operator is unknown, we default to concatenation.
+
+  concatenation(【#】【!】, 【"】【^】) = 【#】【!】【"】【^】
+  output: 【#!"^】-> 【{#!"^}】
+
+I will now return the answer in \boxed{}
+The answer in \boxed{–} is \boxed{#!"^}
+```
+
+### v32 OURS trains model to output CORRECT answer:
+```
+We need to infer the transformation rule from the examples.
+I will put my final answer inside \boxed{}.
+
+This puzzle is a digit-substitution cipher with little-endian digit order.
+Each symbol stands for a digit 0-9. The operators are arithmetic.
+
+Digit mapping: :=1, #=2, \=3, {=4, ]=6, "=7, !=8, ^=9.
+Operator semantics: 【-】 = |a - b| - 2; 【+】 = (a + b) + 2; 【*】 = a*a + b.
+
+Verify each example:
+
+【#]+\#】 = 【"!】
+  left: 【#]】 = 62
+  right: 【\#】 = 23
+  op 【+】 ((a + b) + 2): 87
+  encode 87 as symbols: 【"!】  match
+
+【#^-{]】 = 【]#】
+  left: 【#^】 = 92
+  right: 【{]】 = 64
+  op 【-】 (|a - b| - 2): 26
+  encode 26 as symbols: 【]#】  match
+
+【\{*\!】 = 【#\^:】
+  left: 【\{】 = 43
+  right: 【\!】 = 83
+  op 【*】 (a*a + b): 1932
+  encode 1932 as symbols: 【#\^:】  match
+
+Apply to query 【#!-"^】:
+  left: 【#!】 = 82
+  right: 【"^】 = 97
+  op 【-】 (|a - b| - 2): 13
+  encode 13 as symbols: 【\:】
+
+The answer in \boxed{–} is \boxed{\:}
+```
+
+--------------------------------------------------------------------------------
+
+## ID: 01ef1e3e
+Gold answer: [](
+huikang (current training) answer: ''`!
+v32 ours answer: [](
+
+### CURRENT (huikang) trains model to output WRONG answer:
+```
+We need to infer the transformation rule from the examples.
+I will put my final answer inside \boxed{}.
+
+【'(-^}】 = 【}`】
+  input: 【'】【(】【-】【^】【}】
+  left:【'】【(】
+  operator: 【-】
+  right:【^】【}】
+  output: 【}】【`】
+  concatenation: 【'】【(】【^】【}】 mismatch
+  reverse concatenation: 【^】【}】【'】【(】 mismatch
+  operator: 【-】unknown
+
+【}'-]`】 = 【`<】
+  input: 【}】【'】【-】【]】【`】
+  left:【}】【'】
+  operator: 【-】
+  right:【]】【`】
+  output: 【`】【<】
+  concatenation: 【}】【'】【]】【`】 mismatch
+  reverse concatenation: 【]】【`】【}】【'】 mismatch
+  operator: 【-】unknown
+
+【[/*^<】 = 【/([】
+  input: 【[】【/】【*】【^】【<】
+  left:【[】【/】
+  operator: 【*】
+  right:【^】【<】
+  output: 【/】【(】【[】
+  concatenation: 【[】【/】【^】【<】 mismatch
+  reverse concatenation: 【^】【<】【[】【/】 mismatch
+  operator: 【*】unknown
+
+【^}*'<】 = 【^`['】
+  input: 【^】【}】【*】【'】【<】
+  left:【^】【}】
+  operator: 【*】
+  right:【'】【<】
+  output: 【^】【`】【[】【'】
+  concatenation: 【^】【}】【'】【<】 mismatch
+  reverse concatenation: 【'】【<】【^】【}】 mismatch
+  operator: 【*】unknown
+
+【^]*}]】 = 【][(`】
+  input: 【^】【]】【*】【}】【]】
+  left:【^】【]】
+  operator: 【*】
+  right:【}】【]】
+  output: 【]】【[】【(】【`】
+  concatenation: 【^】【]】【}】【]】 mismatch
+  reverse concatenation: 【}】【]】【^】【]】 mismatch
+  operator: 【*】unknown
+
+Question【''+`!】
+  input: 【'】【'】【+】【`】【!】
+  left:【'】【'】
+  operator:【+】
+  right:【`】【!】
+
+The question operator is 【+】, which is unknown.
+As the question operator is unknown, we default to concatenation.
+
+  concatenation(【'】【'】, 【`】【!】) = 【'】【'】【`】【!】
+  output: 【''`!】-> 【{''`!}】
+
+I will now return the answer in \boxed{}
+The answer in \boxed{–} is \boxed{''`!}
+```
+
+### v32 OURS trains model to output CORRECT answer:
+```
+We need to infer the transformation rule from the examples.
+I will put my final answer inside \boxed{}.
+
+This puzzle is a digit-substitution cipher with standard digit order.
+Each symbol stands for a digit 0-9. The operators are arithmetic.
+
+Digit mapping: !=0, [=1, ]=2, `=3, ^=4, }=5, <=6, /=7, (=8, '=9.
+Operator semantics: 【*】 = a * b - 1; 【-】 = |a - b|; 【+】 = (a + b) - 1.
+
+Verify each example:
+
+【'(-^}】 = 【}`】
+  left: 【'(】 = 98
+  right: 【^}】 = 45
+  op 【-】 (|a - b|): 53
+  encode 53 as symbols: 【}`】  match
+
+【}'-]`】 = 【`<】
+  left: 【}'】 = 59
+  right: 【]`】 = 23
+  op 【-】 (|a - b|): 36
+  encode 36 as symbols: 【`<】  match
+
+【[/*^<】 = 【/([】
+  left: 【[/】 = 17
+  right: 【^<】 = 46
+  op 【*】 (a * b - 1): 781
+  encode 781 as symbols: 【/([】  match
+
+【^}*'<】 = 【^`['】
+  left: 【^}】 = 45
+  right: 【'<】 = 96
+  op 【*】 (a * b - 1): 4319
+  encode 4319 as symbols: 【^`['】  match
+
+【^]*}]】 = 【][(`】
+  left: 【^]】 = 42
+  right: 【}]】 = 52
+  op 【*】 (a * b - 1): 2183
+  encode 2183 as symbols: 【][(`】  match
+
+Apply to query 【''+`!】:
+  left: 【''】 = 99
+  right: 【`!】 = 30
+  op 【+】 ((a + b) - 1): 128
+  encode 128 as symbols: 【[](】
+
+The answer in \boxed{–} is \boxed{[](}
+```
+
+--------------------------------------------------------------------------------
+
+## ID: 022c4d73
+Gold answer: !'
+huikang (current training) answer: :!'/
+v32 ours answer: !'
+
+### CURRENT (huikang) trains model to output WRONG answer:
+```
+We need to infer the transformation rule from the examples.
+I will put my final answer inside \boxed{}.
+
+【//?|[】 = 【?:/】
+  input: 【/】【/】【?】【|】【[】
+  left:【/】【/】
+  operator: 【?】
+  right:【|】【[】
+  output: 【?】【:】【/】
+  concatenation: 【/】【/】【|】【[】 mismatch
+  reverse concatenation: 【|】【[】【/】【/】 mismatch
+  operator: 【?】unknown
+
+【)\?`|】 = 【?':】
+  input: 【)】【\】【?】【`】【|】
+  left:【)】【\】
+  operator: 【?】
+  right:【`】【|】
+  output: 【?】【'】【:】
+  concatenation: 【)】【\】【`】【|】 mismatch
+  reverse concatenation: 【`】【|】【)】【\】 mismatch
+  operator: 【?】unknown
+
+【[)$|:】 = 【!:'】
+  input: 【[】【)】【$】【|】【:】
+  left:【[】【)】
+  operator: 【$】
+  right:【|】【:】
+  output: 【!】【:】【'】
+  concatenation: 【[】【)】【|】【:】 mismatch
+  reverse concatenation: 【|】【:】【[】【)】 mismatch
+  operator: 【$】unknown
+
+【:)$!:】 = 【)!'】
+  input: 【:】【)】【$】【!】【:】
+  left:【:】【)】
+  operator: 【$】
+  right:【!】【:】
+  output: 【)】【!】【'】
+  concatenation: 【:】【)】【!】【:】 mismatch
+  reverse concatenation: 【!】【:】【:】【)】 mismatch
+  operator: 【$】unknown
+
+Question【:!?'/】
+  input: 【:】【!】【?】【'】【/】
+  left:【:】【!】
+  operator:【?】
+  right:【'】【/】
+
+The question operator is 【?】, which is unknown.
+As the question operator is unknown, we default to concatenation.
+
+  concatenation(【:】【!】, 【'】【/】) = 【:】【!】【'】【/】
+  output: 【:!'/】-> 【{:!'/}】
+
+I will now return the answer in \boxed{}
+The answer in \boxed{–} is \boxed{:!'/}
+```
+
+### v32 OURS trains model to output CORRECT answer:
+```
+We need to infer the transformation rule from the examples.
+I will put my final answer inside \boxed{}.
+
+This puzzle is a digit-substitution cipher with little-endian digit order.
+Each symbol stands for a digit 0-9. The operators are arithmetic.
+
+Digit mapping: `=0, '=1, \=2, /=3, !=4, :=5, [=6, |=8, )=9.
+Operator semantics: 【?】 = a - b; 【$】 = a + b.
+
+Verify each example:
+
+【//?|[】 = 【?:/】
+  left: 【//】 = 33
+  right: 【|[】 = 68
+  op 【?】 (a - b): -35
+  result = -35, output 【?:/】 (signed value)
+
+【)\?`|】 = 【?':】
+  left: 【)\】 = 29
+  right: 【`|】 = 80
+  op 【?】 (a - b): -51
+  result = -51, output 【?':】 (signed value)
+
+【[)$|:】 = 【!:'】
+  left: 【[)】 = 96
+  right: 【|:】 = 58
+  op 【$】 (a + b): 154
+  encode 154 as symbols: 【!:'】  match
+
+【:)$!:】 = 【)!'】
+  left: 【:)】 = 95
+  right: 【!:】 = 54
+  op 【$】 (a + b): 149
+  encode 149 as symbols: 【)!'】  match
+
+Apply to query 【:!?'/】:
+  left: 【:!】 = 45
+  right: 【'/】 = 31
+  op 【?】 (a - b): 14
+  encode 14 as symbols: 【!'】
+
+The answer in \boxed{–} is \boxed{!'}
+```
+
+--------------------------------------------------------------------------------

@@ -1,0 +1,14 @@
+__pycache__/
+.pytest_cache/
+.DS_Store
+data/
+submissions/
+*.safetensors
+submission.zip
+kernels/train/adapter/
+kernels/train/packages/
+huikang_ref/
+research/lkevincc_solver/
+research/alt_cot_formats/
+research/bobber_086/
+research/amr_086_v4/

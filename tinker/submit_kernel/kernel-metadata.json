@@ -1,0 +1,19 @@
+{
+  "id": "exerzitien/tinker-smoke-submit",
+  "title": "Tinker Smoke Submit",
+  "code_file": "notebook.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": false,
+  "dataset_sources": [
+    "exerzitien/tinker-smoke-adapter"
+  ],
+  "kernel_sources": [],
+  "competition_sources": [
+    "nvidia-nemotron-model-reasoning-challenge"
+  ],
+  "model_sources": []
+}

@@ -1,0 +1,127 @@
+[{"stream_name":"stderr","time":5.619904978,"data":"/usr/local/lib/python3.12/dist-packages/nbformat/__init__.py:96: MissingIDFieldWarning: Cell is missing an id field, this will become a hard error in future nbformat versions. You may want to use `normalize()` on your notebooks before validations (available since nbformat 5.1.4). Previous versions of nbformat are fixing this issue transparently, and will stop doing so in the future.\n"}
+,{"stream_name":"stderr","time":5.619929268,"data":"  validate(nb)\n"}
+,{"stream_name":"stderr","time":6.345847888,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":6.345860728,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":6.345862068,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":6.345863078,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":6.775942453,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":6.775965703,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":6.775967503,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":6.775968633,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":77.66585808,"data":"mamba_ssm 2.3.1 OK\n"}
+,{"stream_name":"stdout","time":89.739860927,"data":"trl 0.24.0 | CUDA: True\n"}
+,{"stream_name":"stdout","time":89.739890027,"data":"GPU: NVIDIA RTX PRO 6000 Blackwell Server Edition | 102GB\n"}
+,{"stream_name":"stdout","time":89.739892057,"data":"DATA_DIR: /kaggle/input/competitions/nvidia-nemotron-model-reasoning-challenge\n"}
+,{"stream_name":"stdout","time":89.749793372,"data":"Triton OK\n"}
+,{"stream_name":"stdout","time":89.920248517,"data":"Base train: 9500\n"}
+,{"stream_name":"stdout","time":91.70199146,"data":"CoT dataset: 7830 rows, cols: ['id', 'prompt', 'answer', 'type', 'generated_cot']\n"}
+,{"stream_name":"stdout","time":92.207802165,"data":"CoT records: 7830\n"}
+,{"stream_name":"stdout","time":92.207834615,"data":"Token lengths (first 50): min=573 max=7659 mean=3435 median=3105\n"}
+,{"stream_name":"stdout","time":92.264333497,"data":"Loading model...\n"}
+,{"stream_name":"stdout","time":573.248041665,"data":"Patched transformers_modules._1.modeling_nemotron_h\n"}
+,{"stream_name":"stdout","time":573.248078895,"data":"Params: 31.6B\n"}
+,{"stream_name":"stdout","time":581.918150989,"data":"trainable params: 883,873,792 || all params: 32,461,811,136 || trainable%: 2.7228\n"}
+,{"stream_name":"stderr","time":604.028128855,"data":"The tokenizer has new PAD/BOS/EOS tokens that differ from the model config and generation config. The model config and generation config were aligned accordingly, being updated with the tokenizer's values. Updated tokens: {'pad_token_id': 11}.\n"}
+,{"stream_name":"stderr","time":604.028158055,"data":"\n"}
+,{"stream_name":"stderr","time":604.028160165,"data":"The tokenizer has new PAD/BOS/EOS tokens that differ from the model config and generation config. The model config and generation config were aligned accordingly, being updated with the tokenizer's values. Updated tokens: {'pad_token_id': 11}.\n"}
+,{"stream_name":"stdout","time":604.559881682,"data":"Training... packing=False, max_length=2048, max_steps=60, grad_accum=8\n"}
+,{"stream_name":"stdout","time":872.720335825,"data":"[step 5/60] loss=24.0912  lr=1.87e-04  epoch=0.01\n"}
+,{"stream_name":"stdout","time":1141.424746174,"data":"[step 10/60] loss=14.6919  lr=1.70e-04  epoch=0.01\n"}
+,{"stream_name":"stdout","time":1402.836639763,"data":"[step 15/60] loss=13.0621  lr=1.53e-04  epoch=0.02\n"}
+,{"stream_name":"stdout","time":1667.053464082,"data":"[step 20/60] loss=9.6282  lr=1.37e-04  epoch=0.02\n"}
+,{"stream_name":"stdout","time":1935.480039243,"data":"[step 25/60] loss=7.8230  lr=1.20e-04  epoch=0.03\n"}
+,{"stream_name":"stdout","time":2210.200956394,"data":"[step 30/60] loss=6.4918  lr=1.03e-04  epoch=0.03\n"}
+,{"stream_name":"stdout","time":2475.590008753,"data":"[step 35/60] loss=4.6642  lr=8.67e-05  epoch=0.04\n"}
+,{"stream_name":"stdout","time":2737.640366396,"data":"[step 40/60] loss=3.9744  lr=7.00e-05  epoch=0.04\n"}
+,{"stream_name":"stdout","time":2999.422133185,"data":"[step 45/60] loss=3.5991  lr=5.33e-05  epoch=0.05\n"}
+,{"stream_name":"stdout","time":3265.845542044,"data":"[step 50/60] loss=3.1933  lr=3.67e-05  epoch=0.05\n"}
+,{"stream_name":"stdout","time":3537.89484794,"data":"[step 55/60] loss=3.4961  lr=2.00e-05  epoch=0.06\n"}
+,{"stream_name":"stdout","time":3798.165207598,"data":"[step 60/60] loss=3.2169  lr=3.33e-06  epoch=0.06\n"}
+,{"stream_name":"stderr","time":3802.052837097,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":3802.052857027,"data":"  File \"\u003cstring\u003e\", line 1, in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":3802.052859417,"data":"  File \"/usr/local/lib/python3.12/dist-packages/papermill/execute.py\", line 131, in execute_notebook\n"}
+,{"stream_name":"stderr","time":3802.052893077,"data":"    raise_for_execution_errors(nb, output_path)\n"}
+,{"stream_name":"stderr","time":3802.052904387,"data":"  File \"/usr/local/lib/python3.12/dist-packages/papermill/execute.py\", line 251, in raise_for_execution_errors\n"}
+,{"stream_name":"stderr","time":3802.052930217,"data":"    raise error\n"}
+,{"stream_name":"stderr","time":3802.053106117,"data":"papermill.exceptions.PapermillExecutionError: \n"}
+,{"stream_name":"stderr","time":3802.053108757,"data":"---------------------------------------------------------------------------\n"}
+,{"stream_name":"stderr","time":3802.053110127,"data":"Exception encountered at \"In [7]\":\n"}
+,{"stream_name":"stderr","time":3802.053111437,"data":"---------------------------------------------------------------------------\n"}
+,{"stream_name":"stderr","time":3802.053112607,"data":"ValueError                                Traceback (most recent call last)\n"}
+,{"stream_name":"stderr","time":3802.053113757,"data":"/tmp/ipykernel_65/80944814.py in \u003ccell line: 0\u003e()\n"}
+,{"stream_name":"stderr","time":3802.053115057,"data":"     41     ))\n"}
+,{"stream_name":"stderr","time":3802.053116167,"data":"     42 print(f'Training... packing=False, max_length={MAX_SEQ_LEN}, max_steps={MAX_STEPS}, grad_accum={GRAD_ACCUM}')\n"}
+,{"stream_name":"stderr","time":3802.053117357,"data":"---\u003e 43 trainer.train()\n"}
+,{"stream_name":"stderr","time":3802.053118487,"data":"     44 print('Done.')\n"}
+,{"stream_name":"stderr","time":3802.053119627,"data":"\n"}
+,{"stream_name":"stderr","time":3802.053120857,"data":"/kaggle/usr/lib/notebooks/ryanholbrook/nvidia_utility_script/transformers/trainer.py in train(self, resume_from_checkpoint, trial, ignore_keys_for_eval)\n"}
+,{"stream_name":"stderr","time":3802.053122037,"data":"   1422         ctx = suppress_progress_bars() if args.push_to_hub else contextlib.nullcontext()\n"}
+,{"stream_name":"stderr","time":3802.053123357,"data":"   1423         with ctx:\n"}
+,{"stream_name":"stderr","time":3802.053124437,"data":"-\u003e 1424             return inner_training_loop(\n"}
+,{"stream_name":"stderr","time":3802.053125557,"data":"   1425                 args=args,\n"}
+,{"stream_name":"stderr","time":3802.053131877,"data":"   1426                 resume_from_checkpoint=resume_from_checkpoint,\n"}
+,{"stream_name":"stderr","time":3802.053132807,"data":"\n"}
+,{"stream_name":"stderr","time":3802.053133607,"data":"/kaggle/usr/lib/notebooks/ryanholbrook/nvidia_utility_script/transformers/trainer.py in _inner_training_loop(self, batch_size, args, resume_from_checkpoint, trial, ignore_keys_for_eval)\n"}
+,{"stream_name":"stderr","time":3802.053134527,"data":"   1520                 break\n"}
+,{"stream_name":"stderr","time":3802.053135347,"data":"   1521 \n"}
+,{"stream_name":"stderr","time":3802.053136117,"data":"-\u003e 1522         return self._finalize_training(trial, num_train_samples, start_time)\n"}
+,{"stream_name":"stderr","time":3802.053136987,"data":"   1523 \n"}
+,{"stream_name":"stderr","time":3802.053137737,"data":"   1524     def _init_training_state(\n"}
+,{"stream_name":"stderr","time":3802.053138537,"data":"\n"}
+,{"stream_name":"stderr","time":3802.053139297,"data":"/kaggle/usr/lib/notebooks/ryanholbrook/nvidia_utility_script/transformers/trainer.py in _finalize_training(self, trial, num_train_samples, start_time)\n"}
+,{"stream_name":"stderr","time":3802.053140187,"data":"   1836 \n"}
+,{"stream_name":"stderr","time":3802.053140937,"data":"   1837         self._memory_tracker.stop_and_update_metrics(metrics)\n"}
+,{"stream_name":"stderr","time":3802.053141757,"data":"-\u003e 1838         self.log(metrics)\n"}
+,{"stream_name":"stderr","time":3802.053142557,"data":"   1839 \n"}
+,{"stream_name":"stderr","time":3802.053143327,"data":"   1840         if self.args.load_best_model_at_end and self.state.best_model_checkpoint is not None:\n"}
+,{"stream_name":"stderr","time":3802.053144167,"data":"\n"}
+,{"stream_name":"stderr","time":3802.053144897,"data":"/usr/local/lib/python3.12/dist-packages/trl/trainer/sft_trainer.py in log(self, logs, start_time)\n"}
+,{"stream_name":"stderr","time":3802.053145727,"data":"   1195 \n"}
+,{"stream_name":"stderr","time":3802.053146437,"data":"   1196         logs.update(metrics)\n"}
+,{"stream_name":"stderr","time":3802.053147227,"data":"-\u003e 1197         super().log(logs, start_time)\n"}
+,{"stream_name":"stderr","time":3802.053148017,"data":"   1198         self._metrics[mode].clear()\n"}
+,{"stream_name":"stderr","time":3802.053148817,"data":"   1199 \n"}
+,{"stream_name":"stderr","time":3802.053149567,"data":"\n"}
+,{"stream_name":"stderr","time":3802.053150497,"data":"/kaggle/usr/lib/notebooks/ryanholbrook/nvidia_utility_script/transformers/trainer.py in log(self, logs, start_time)\n"}
+,{"stream_name":"stderr","time":3802.053151377,"data":"   3858         output = {**logs, \"step\": self.state.global_step}\n"}
+,{"stream_name":"stderr","time":3802.053152287,"data":"   3859         self.state.log_history.append(output)\n"}
+,{"stream_name":"stderr","time":3802.053153097,"data":"-\u003e 3860         self.control = self.callback_handler.on_log(self.args, self.state, self.control, logs)\n"}
+,{"stream_name":"stderr","time":3802.053153947,"data":"   3861 \n"}
+,{"stream_name":"stderr","time":3802.053154697,"data":"   3862     def store_flos(self) -\u003e None:\n"}
+,{"stream_name":"stderr","time":3802.053155497,"data":"\n"}
+,{"stream_name":"stderr","time":3802.053156257,"data":"/kaggle/usr/lib/notebooks/ryanholbrook/nvidia_utility_script/transformers/trainer_callback.py in on_log(self, args, state, control, logs)\n"}
+,{"stream_name":"stderr","time":3802.053157127,"data":"    533     def on_log(self, args: TrainingArguments, state: TrainerState, control: TrainerControl, logs):\n"}
+,{"stream_name":"stderr","time":3802.053157967,"data":"    534         control.should_log = False\n"}
+,{"stream_name":"stderr","time":3802.053160117,"data":"--\u003e 535         return self.call_event(\"on_log\", args, state, control, logs=logs)\n"}
+,{"stream_name":"stderr","time":3802.053161037,"data":"    536 \n"}
+,{"stream_name":"stderr","time":3802.053161767,"data":"    537     def on_prediction_step(self, args: TrainingArguments, state: TrainerState, control: TrainerControl):\n"}
+,{"stream_name":"stderr","time":3802.053162607,"data":"\n"}
+,{"stream_name":"stderr","time":3802.053163337,"data":"/kaggle/usr/lib/notebooks/ryanholbrook/nvidia_utility_script/transformers/trainer_callback.py in call_event(self, event, args, state, control, **kwargs)\n"}
+,{"stream_name":"stderr","time":3802.053164227,"data":"    543     def call_event(self, event, args, state, control, **kwargs):\n"}
+,{"stream_name":"stderr","time":3802.053165037,"data":"    544         for callback in self.callbacks:\n"}
+,{"stream_name":"stderr","time":3802.053165837,"data":"--\u003e 545             result = getattr(callback, event)(\n"}
+,{"stream_name":"stderr","time":3802.053166667,"data":"    546                 args,\n"}
+,{"stream_name":"stderr","time":3802.053167447,"data":"    547                 state,\n"}
+,{"stream_name":"stderr","time":3802.053168227,"data":"\n"}
+,{"stream_name":"stderr","time":3802.053168957,"data":"/tmp/ipykernel_65/80944814.py in on_log(self, args, state, control, logs, **kwargs)\n"}
+,{"stream_name":"stderr","time":3802.053169787,"data":"      9         if logs and state.global_step:\n"}
+,{"stream_name":"stderr","time":3802.053170597,"data":"     10             print(f\"[step {state.global_step}/{state.max_steps}] \"\n"}
+,{"stream_name":"stderr","time":3802.053171467,"data":"---\u003e 11                   f\"loss={logs.get('loss','?'):.4f}  \"\n"}
+,{"stream_name":"stderr","time":3802.053172327,"data":"     12                   f\"lr={logs.get('learning_rate',0):.2e}  \"\n"}
+,{"stream_name":"stderr","time":3802.053173157,"data":"     13                   f\"epoch={state.epoch:.2f}\",flush=True)\n"}
+,{"stream_name":"stderr","time":3802.053173997,"data":"\n"}
+,{"stream_name":"stderr","time":3802.053174737,"data":"ValueError: Unknown format code 'f' for object of type 'str'\n"}
+,{"stream_name":"stderr","time":3802.053175577,"data":"\n"}
+,{"stream_name":"stderr","time":3803.291260633,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":3803.291283803,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":3803.431808931,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":3803.431826771,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":3804.479048151,"data":"/usr/local/lib/python3.12/dist-packages/traitlets/traitlets.py:2915: FutureWarning: --Exporter.preprocessors=[\"remove_papermill_header.RemovePapermillHeader\"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.\n"}
+,{"stream_name":"stderr","time":3804.479070591,"data":"  warn(\n"}
+,{"stream_name":"stderr","time":3804.517484309,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":3804.662532735,"data":"[NbConvertApp] Writing 78089 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":3806.510415979,"data":"/usr/local/lib/python3.12/dist-packages/traitlets/traitlets.py:2915: FutureWarning: --Exporter.preprocessors=[\"nbconvert.preprocessors.ExtractOutputPreprocessor\"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.\n"}
+,{"stream_name":"stderr","time":3806.510448939,"data":"  warn(\n"}
+,{"stream_name":"stderr","time":3806.54297302,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":3807.051992194,"data":"[NbConvertApp] Writing 376731 bytes to __results__.html\n"}
+]
